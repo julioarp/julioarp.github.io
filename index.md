@@ -1,4 +1,5 @@
-Assistant Research Professor of Public Policy
+
+Assistant Research Professor of Public Policy <img align="right" src="https://user-images.githubusercontent.com/72354935/124209816-3e5c3500-dab8-11eb-9ad8-0819a8d569be.jpg"> 
 The Pennsylvania State University
 School of Public Policy
 
@@ -47,6 +48,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 [![Linkedin](C:\Users\jar7056\OneDrive - The Pennsylvania State University)]
 
+![Julio_Ramos_photo](https://user-images.githubusercontent.com/72354935/124209816-3e5c3500-dab8-11eb-9ad8-0819a8d569be.jpg)
 
 
 ## Welcome to GitHub Pages
