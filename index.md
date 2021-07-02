@@ -5,7 +5,7 @@ School of Public Policy
 External Faculty Affiliate
 Ostrom Workshop, Indiana University
 
-##Links to [CV](https://github.com/julioarp/julioarp.github.io/blob/1d4fd64f98b8f4132e67d6ab6658b888a62625ff/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), Twitter, LinkedIn
+##Links to [CV](https://github.com/julioarp/julioarp.github.io/raw/1d4fd64f98b8f4132e67d6ab6658b888a62625ff/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), Twitter, LinkedIn
 
 **Research Interests :** XXXX
 
