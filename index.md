@@ -1,3 +1,54 @@
+Assistant Research Professor of Public Policy
+The Pennsylvania State University
+School of Public Policy
+
+External Faculty Affiliate
+Ostrom Workshop, Indiana University
+
+##Links to [CV](https://github.com/julioarp/julioarp.github.io/blob/1d4fd64f98b8f4132e67d6ab6658b888a62625ff/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), Twitter, LinkedIn
+
+**Research Interests :** XXXX
+
+## Working Papers
+
+“Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
+
+“Health Care Providers’ Response to Pay-For-Performance Under Framing: Experimental Evidence from a Home Visiting Program”, jointly with Johabed G. Olvera
+
+“Moving for Healthcare: The Effect of ACA Medicaid Expansion on Homelesness”, jointly with Stephanie Moulton, Johabed G. Olvera, and Kosali Simon
+
+“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
+
+“Prosecutors Responses to Increases in Health Insurance Coverage: Evidence from ACA Medicaid Expansions”, jointly with Victoria Perez
+
+“Saving Infant Lives or Generating Jobs? The Impact of Governor's Career Path on Gubernatorial Performance”, jointy with Johabed G. Olvera and Claudia N. Avellaneda
+
+“The Institutional Legacy of Mexican Land and Water in California”, jointly with Gary D. Libecap and Dean Lueck 
+
+
+
+## Publication
+
+[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259) \
+Julio A. Ramos Pastrana \
+Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
+
+## Work in Progress
+
+“Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
+
+“Dominant Parties’ Spending Behavior During External Economic Shocks”
+
+“Spanish Missions and their Impact on Native Americans in the Southwest and California”, jointly with Lee J. Alson and Marie Duggan
+
+“Term Limits and Municipal Spending in Mexico”, jointly with Gustavo Torrens
+
+## Teaching
+
+[![Linkedin](C:\Users\jar7056\OneDrive - The Pennsylvania State University)]
+
+
+
 ## Welcome to GitHub Pages
 
 PRUEBA You can use the [editor on GitHub](https://github.com/julioarp/julioarp.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
