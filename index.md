@@ -1,6 +1,7 @@
+<img align="center" src="https://user-images.githubusercontent.com/72354935/137534425-87103128-a23c-4af0-a1aa-bcee1a5bae72.JPG" width="400"> 
 
 # Julio A. Ramos Pastrana
-Assistant Research Professor of Public Policy <img align="right" src="https://user-images.githubusercontent.com/72354935/137534425-87103128-a23c-4af0-a1aa-bcee1a5bae72.JPG" width="400"> 
+Assistant Research Professor of Public Policy 
 The Pennsylvania State University
 School of Public Policy
 
@@ -63,4 +64,5 @@ Theory of Prices and Markets I (Microeconomics 1st year PhD sequence course), In
 Theory of Prices and Markets II (Microeconomics 1st year PhD sequence course), Indiana University (Spring 2016, Spring 2019)
 
 Introduction to Microeconomics, Indiana University (Fall 2015)
+
 
