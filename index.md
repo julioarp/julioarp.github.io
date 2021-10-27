@@ -8,7 +8,7 @@ School of Public Policy
 External Faculty Affiliate
 Ostrom Workshop, Indiana University
 
-##Links to [CV](https://github.com/julioarp/julioarp.github.io/raw/1d4fd64f98b8f4132e67d6ab6658b888a62625ff/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
+[CV](https://github.com/julioarp/julioarp.github.io/raw/1d4fd64f98b8f4132e67d6ab6658b888a62625ff/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
 **Research Interests :** Political Economy, Public Finance, and Resource and Environmental Economics
 
