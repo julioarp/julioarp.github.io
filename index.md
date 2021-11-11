@@ -14,20 +14,15 @@ Ostrom Workshop, Indiana University
 
 # Working Papers
 
-“Term Limits and Municipal Spending in Mexico”, jointly with Gustavo Torrens
-
 [“Chosing you Battles: Governors' Career Path, Spending Priorities and Performance”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3877626), jointy with Johabed G. Olvera and Claudia N. Avellaneda
+
+“Dominant Parties’ Spending Behavior During External Economic Shocks”
 
 “Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
 
 “The Institutional Legacy of Mexican Land and Water in California”, jointly with Gary D. Libecap and Dean Lueck 
 
-“Health Care Providers’ Response to Pay-For-Performance Under Framing: Experimental Evidence from a Home Visiting Program”, jointly with Johabed G. Olvera
-
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
-
-“Prosecutors Responses to Increases in Health Insurance Coverage: Evidence from ACA Medicaid Expansions”, jointly with Victoria Perez
-
 
 # Publication
 
@@ -37,17 +32,17 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 # Work in Progress
 
-“Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
+“Prosecutors Responses to Increases in Health Insurance Coverage: Evidence from ACA Medicaid Expansions”, jointly with Victoria Perez
 
-“Dominant Parties’ Spending Behavior During External Economic Shocks”
+“Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
+
+“Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
 
 “Spanish Missions and their Impact on Native Americans in the Southwest and California”, jointly with Lee J. Alson and Marie Duggan
 
 # Teaching
 
 ## Instructor:
-
-PPOL 802: 
 
 Economic Analysis for Public Policy (PPOL 802), Penn State University (Fall 2020, Fall 2021)
 
