@@ -1,12 +1,15 @@
 <img align="center" src="https://user-images.githubusercontent.com/72354935/137534425-87103128-a23c-4af0-a1aa-bcee1a5bae72.JPG" width="400"> 
 
 # Julio A. Ramos Pastrana
-Assistant Research Professor of Public Policy 
+Assistant Research Professor of Public Policy. 
 The Pennsylvania State University
 School of Public Policy
 
-External Faculty Affiliate
+External Faculty Affiliate.
 Ostrom Workshop, Indiana University
+
+Editorial Assistant.
+Journal of Public Policy
 
 [CV](https://github.com/julioarp/julioarp.github.io/raw/1d4fd64f98b8f4132e67d6ab6658b888a62625ff/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
