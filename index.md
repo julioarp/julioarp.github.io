@@ -17,13 +17,13 @@ Journal of Public Policy
 
 # Working Papers
 
-[“Chosing you Battles: Governors' Career Path, Spending Priorities and Performance”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3877626), jointy with Johabed G. Olvera and Claudia N. Avellaneda
+“The Institutional Legacy of Mexican Land and Water in California”, jointly with Gary D. Libecap and Dean Lueck - Submitted
+
+[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3877626), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
 
 “Dominant Parties’ Spending Behavior During External Economic Shocks”
 
 “Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
-
-“The Institutional Legacy of Mexican Land and Water in California”, jointly with Gary D. Libecap and Dean Lueck 
 
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
