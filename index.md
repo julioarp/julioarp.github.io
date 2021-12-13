@@ -21,11 +21,7 @@ Journal of Public Policy
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3877626), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
 
-“Dominant Parties’ Spending Behavior During External Economic Shocks”
-
-“Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
-
-“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
+“Dominant Parties’ Spending Behavior During External Economic Shocks” - Submitted
 
 # Publication
 
@@ -34,6 +30,10 @@ Julio A. Ramos Pastrana \
 Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 # Work in Progress
+
+“Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
+
+“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
 “Prosecutors Responses to Increases in Health Insurance Coverage: Evidence from ACA Medicaid Expansions”, jointly with Victoria Perez
 
