@@ -11,7 +11,7 @@ Ostrom Workshop, Indiana University
 Editorial Assistant.
 Journal of Public Policy
 
-[CV](https://github.com/julioarp/julioarp.github.io/blob/737bd2ee778454a6c833e162c6fd8d592f1ed6f7/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
+[CV], [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
 **Research Interests :** Political Economy, Public Finance, and Resource and Environmental Economics
 
