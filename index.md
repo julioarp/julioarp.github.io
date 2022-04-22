@@ -23,6 +23,8 @@ Journal of Public Policy
 
 [“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Submitted
 
+"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
+
 # Publication
 
 [Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259) \
@@ -34,8 +36,6 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 “Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
 
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
-
-“Prosecutors Responses to Increases in Health Insurance Coverage: Evidence from ACA Medicaid Expansions”, jointly with Victoria Perez
 
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
 
