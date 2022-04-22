@@ -47,7 +47,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 ## Instructor:
 
-Economic Analysis for Public Policy (PPOL 802), Penn State University (Fall 2020, Fall 2021)
+Economic Analysis for Public Policy (PPOL 802), Penn State University (Fall 2020, Fall 2021, Fall 2022)
 
 Public Policy Analysis (PPOL 809), Penn State University (Spring 2021)
 
