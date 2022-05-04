@@ -25,8 +25,6 @@ Journal of Public Policy
 
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
 
-"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan - Submitted
-
 # Publication
 
 [Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259) \
@@ -42,6 +40,8 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
 
 “Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
+
+"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan
 
 # Teaching
 
