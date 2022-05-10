@@ -33,7 +33,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 # Work in Progress
 
-“Economic Interests, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
+“Interest Groups, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens
 
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
