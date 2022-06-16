@@ -25,7 +25,7 @@ Journal of Public Policy
 
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
 
-“Interest Groups, Partisan Politics, and Environmental Polarization”, jointly with Dean Lueck and Gustavo Torrens - Submitted
+[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
 
 # Publication
 
