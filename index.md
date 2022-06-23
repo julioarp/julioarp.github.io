@@ -17,7 +17,7 @@ Journal of Public Policy
 
 # Working Papers
 
-“The Institutional Legacy of Mexican Land and Water in California”, jointly with Dean Lueck - Submitted
+[“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
 
 “Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”, jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
 
