@@ -21,7 +21,7 @@ Journal of Public Policy
 
 “Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”, jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
 
-[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Submitted
+[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Revisions Requested at Economics and Politics
 
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
 
