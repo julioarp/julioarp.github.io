@@ -17,15 +17,17 @@ Journal of Public Policy
 
 # Working Papers
 
+[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Revisions Requested at Economics and Politics
+
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
 
 “Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”, jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
 
-[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Revisions Requested at Economics and Politics
-
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
+
+"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan - Submitted
 
 # Publication
 
@@ -35,15 +37,13 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 # Work in Progress
 
-“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”, jointly with Johabed Olvera and Hilary Wegthing
+“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”, jointly with Johabed Olvera and Hilary Wething
 
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
 
 “Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
-
-"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan
 
 # Teaching
 
