@@ -25,13 +25,13 @@ Journal of Public Policy
 
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
 
-“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”, jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
+[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3877626), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
 
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
 
-"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan - Submitted
+["The Spanish Mission Legacy on Native American Reservations"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750), jointly with Lee J. Alston and Marie Duggan - Submitted
 
 # Publication
 
