@@ -31,7 +31,7 @@ Journal of Public Policy
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
 
-"The Spanish Mission Legacy on Native American Reservations"NBER [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750), jointly with Lee J. Alston and Marie Duggan - Submitted
+"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan NBER [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Submitted
 
 # Publication
 
