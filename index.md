@@ -21,7 +21,7 @@ Journal of Public Policy
 
 # Working Papers
 
-[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Revisions Requested at Economics & Politics
+[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - R&R at Economics & Politics
 
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
 
