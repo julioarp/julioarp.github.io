@@ -21,8 +21,6 @@ Journal of Public Policy
 
 # Working Papers
 
-[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - R&R at Economics & Politics
-
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
@@ -31,13 +29,15 @@ Journal of Public Policy
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
 
-"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Submitted
-
-# Publication
+# Publications
 
 [Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259) \
 Julio A. Ramos Pastrana \
 Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
+
+[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Accepted at Economics & Politics
+
+"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Accepted at Journal of Historical Political Economy
 
 # Work in Progress
 
