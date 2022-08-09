@@ -49,6 +49,8 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 “Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
 
+“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera
+
 # Teaching
 
 ## Instructor:
