@@ -17,17 +17,7 @@ Journal of Public Policy
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/1a9640c524bf389723438ac0e715559dc351235d/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Political Economy, Public Finance, and Resource and Environmental Economics
-
-# Working Papers
-
-[“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
-
-[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
-
-"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
-
-[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
+**Research Interests :** Political Economy, Public Finance, and Policy Analysis
 
 # Publications
 
@@ -39,9 +29,19 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 "The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Accepted at Journal of Historical Political Economy
 
-# Work in Progress
+# Working Papers
 
-“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”, jointly with Johabed Olvera and Hilary Wething
+[“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
+
+[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
+
+"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
+
+[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Submitted
+
+[“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething -  Submitted
+
+# Work in Progress
 
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
