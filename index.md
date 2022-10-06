@@ -17,7 +17,7 @@ Journal of Public Policy
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/1a9640c524bf389723438ac0e715559dc351235d/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Political Economy, Public Finance, and Policy Analysis
+**Research Interests :** Political Economy, Public Finance, and Health Economics
 
 # Publications
 
@@ -43,13 +43,13 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 # Work in Progress
 
-“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
+“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera
 
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
 
-“Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
+“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
-“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera
+“Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
 
 # Teaching
 
