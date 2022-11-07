@@ -33,11 +33,11 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Revisions requested at Journal of Law, Economics, and Organization
 
+"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Revisions requested at International Journal of Health Economics and Management
+
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Submitted
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Submitted
-
-"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Submitted
 
 [“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething -  Submitted
 
@@ -61,7 +61,7 @@ Public Policy Analysis (PPOL 809), Penn State University (Spring 2021)
 
 Political Economy (ECON 407), Penn State University (Spring 2022)
 
-Policy and Program Evaluation (PPOL 810), Penn State University (Spring 2022)
+Policy and Program Evaluation (PPOL 810), Penn State University (Spring 2022, Spring 2023)
 
 ## Teaching Assistant:
 
