@@ -5,6 +5,9 @@ Assistant Research Professor of Public Policy.
 The Pennsylvania State University
 School of Public Policy
 
+Faculty Affiliate.
+C-SoDA, Penn State University
+
 Associate.
 Population Research Institute, Penn State University
 
@@ -25,7 +28,7 @@ Journal of Public Policy
 Julio A. Ramos Pastrana \
 Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
-[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339) - Accepted at Economics & Politics
+“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks” - Online First, Economics & Politics [Gated](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
 "The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Accepted at Journal of Historical Political Economy
 
@@ -62,6 +65,8 @@ Public Policy Analysis (PPOL 809), Penn State University (Spring 2021)
 Political Economy (ECON 407), Penn State University (Spring 2022)
 
 Policy and Program Evaluation (PPOL 810), Penn State University (Spring 2022, Spring 2023)
+
+Statistics for Public Policy II (PPOL 506), Penn State University (Spring 2023)
 
 ## Teaching Assistant:
 
