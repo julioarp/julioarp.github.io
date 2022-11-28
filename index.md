@@ -44,15 +44,19 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 [“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething -  Submitted
 
-# Work in Progress
+“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Submitted
 
-“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera
+# Work in Progress
 
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
 
 “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Felipe Lozano-Rojas, Johabed G. Olvera and Sumedha Gupta
 
 “Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
+
+“The Economic Effect of Dominant-Party Alternation in Mexican States”, jointly with Francisco A. Castellanos-Sosa
+
+“Term limits, local government performance and performative behaviors in the municipal council”, jointly with Ricardo A. Bello-Gomez
 
 # Teaching
 
