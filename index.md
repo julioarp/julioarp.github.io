@@ -20,7 +20,7 @@ Journal of Public Policy
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/1a9640c524bf389723438ac0e715559dc351235d/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Political Economy, Public Finance, and Health Economics
+**Research Interests :** Health Econoics, Economic Development, Political Economy, Policy Analysis
 
 # Publications
 
@@ -30,7 +30,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 “Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks” - Online First, Economics & Politics [Gated](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
-"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Accepted at Journal of Historical Political Economy
+"The Spanish Mission Legacy on Native American Reservations", jointly with Lee J. Alston and Marie Duggan [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750) - Forthcoming at Journal of Historical Political Economy
 
 # Working Papers
 
