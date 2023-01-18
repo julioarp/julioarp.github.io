@@ -40,7 +40,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Revisions requested at **International Journal of Health Economics and Management**
 
-[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Revisions requested at **JPIPE**
+[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Revisions requested at the **Journal of Political Institutions and Political Economy**
 
 [“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething -  Submitted
 
