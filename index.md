@@ -46,6 +46,8 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Submitted
 
+“Term limits, local government performance and performative behavior for accountability”, jointly with Ricardo A. Bello-Gomez - Submitted
+
 # Work in Progress
 
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
@@ -55,8 +57,6 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 “Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
 
 “The Economic Effect of Dominant-Party Alternation in Mexican States”, jointly with Francisco A. Castellanos-Sosa
-
-“Term limits, local government performance and performative behaviors in the municipal council”, jointly with Ricardo A. Bello-Gomez
 
 # Teaching
 
