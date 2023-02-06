@@ -30,7 +30,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 
 [The Spanish Mission Legacy on Native American Reservations](https://nowpublishers.com/article/Details/HPE-0039) \
 Lee J. Alston, Marie Duggan and Julio A. Ramos Pastrana \
-Journal of Historical Political Economy: Vol. 2: No. 4, pp 527-551 [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
+Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
 
 “Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks” - Online First, Economics & Politics [Gated](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
