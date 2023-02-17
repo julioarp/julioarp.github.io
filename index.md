@@ -50,7 +50,7 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 “Term limits, local government performance and performative behavior for accountability”, jointly with Ricardo A. Bello-Gomez - Submitted
 
-“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”, jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Submitted
+[“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4362294), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Submitted
 
 # Work in Progress
 
