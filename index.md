@@ -20,7 +20,7 @@ Journal of Public Policy
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/1a9640c524bf389723438ac0e715559dc351235d/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Health Economics, Economic Development, Political Economy, Policy Analysis
+**Research Interests :** Program Evaluation, Health Economics, Economic Development, Telecommunications Policy, Political Economy
 
 # Publications
 
