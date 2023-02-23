@@ -40,7 +40,7 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Revisions requested at **Journal of Law, Economics, and Organization**
 
-"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Revisions requested at **International Journal of Health Economics and Management**
+"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Revisions resubmitted at **International Journal of Health Economics and Management**
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Revisions requested at the **Journal of Political Institutions and Political Economy**
 
