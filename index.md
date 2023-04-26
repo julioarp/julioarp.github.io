@@ -34,13 +34,13 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 “Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks” - Online First, Economics & Politics [Gated](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
+"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Accepted at International Journal of Health Economics and Management
+
 # Working Papers
 
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Revisions resubmitted at **Journal of Law & Economics**
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Revisions resubmitted at **Journal of Law, Economics, and Organization**
-
-"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Revisions resubmitted at **International Journal of Health Economics and Management**
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Revisions requested at the **Journal of Political Institutions and Political Economy**
 
