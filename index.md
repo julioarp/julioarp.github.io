@@ -20,7 +20,7 @@ Journal of Public Policy
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/1a9640c524bf389723438ac0e715559dc351235d/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Program Evaluation, Health Economics, Economic Development, Telecommunications Policy, Political Economy
+**Research Interests :** Program Evaluation, Health Economics, Property Rights to Land, Telecommunications Policy, Political Economy
 
 # Publications
 
@@ -38,9 +38,9 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 "Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Accepted at International Journal of Health Economics and Management
 
-# Working Papers
+[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Accepted at **Journal of Law, Economics, and Organization**
 
-[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Revisions resubmitted at **Journal of Law, Economics, and Organization**
+# Working Papers
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Revisions requested at the **Journal of Political Institutions and Political Economy**
 
