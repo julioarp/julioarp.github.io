@@ -60,7 +60,7 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 “The Economic Effect of Dominant-Party Alternation in Mexican States”, jointly with Francisco A. Castellanos-Sosa
 
-# Teaching
+# Courses Taught
 
 ## Instructor:
 
