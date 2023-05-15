@@ -32,7 +32,7 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 Lee J. Alston, Marie Duggan and Julio A. Ramos Pastrana \
 Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
 
-“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks” - Online First, Economics & Politics [Gated](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
+[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) - Online First, Economics & Politics [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Accepted at Journal of Law & Economics
 
