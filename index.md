@@ -36,7 +36,7 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Accepted at Journal of Law & Economics
 
-"Finding Fraud: Enforcement, Detection, and Recoveries after the ACA", jointly with Victoria Perez - Accepted at International Journal of Health Economics and Management
+["Finding Fraud: Enforcement, Detection, and Recoveries after the ACA"](https://link.springer.com/article/10.1007/s10754-023-09357-w), jointly with Victoria Perez - Accepted at International Journal of Health Economics and Management
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Accepted at Journal of Law, Economics, and Organization
 
