@@ -1,22 +1,11 @@
 <img align="center" src="https://user-images.githubusercontent.com/72354935/137534425-87103128-a23c-4af0-a1aa-bcee1a5bae72.JPG" width="400"> 
 
 # Julio A. Ramos Pastrana
-Assistant Research Professor of Public Policy. 
-The Pennsylvania State University
-School of Public Policy
-
-Faculty Affiliate.
-C-SoDA, Penn State University
-
-Associate.
-Population Research Institute, Penn State University
+Impact Evaluation Consultant
+Inter-American Development Bank
 
 External Faculty Affiliate.
 Ostrom Workshop, Indiana University
-
-Editorial Assistant.
-Journal of Public Policy
-2021-2022
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/1a9640c524bf389723438ac0e715559dc351235d/CV%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
