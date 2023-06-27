@@ -35,11 +35,11 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 [“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Revisions requested at **Journal of Housing Economics**
 
+“The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions requested at **Local Government Studies**
+
 [“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething -  Submitted
 
 “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Submitted
-
-“The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Submitted
 
 # Work in Progress
 
