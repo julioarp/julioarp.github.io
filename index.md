@@ -29,9 +29,9 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Accepted at Journal of Law, Economics, and Organization
 
-# Working Papers
-
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Conditionally accepted at the **Journal of Political Institutions and Political Economy**
+
+# Working Papers
 
 “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Revisions requested at **Journal of Population Economics**
 
