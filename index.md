@@ -39,7 +39,7 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 “The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions requested at **Local Government Studies**
 
-[“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething -  Submitted
+[“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething
 
 # Work in Progress
 
