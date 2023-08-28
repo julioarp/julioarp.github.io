@@ -25,11 +25,11 @@ Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](ht
 
 ["Finding Fraud: Enforcement, Detection, and Recoveries after the ACA"](https://link.springer.com/article/10.1007/s10754-023-09357-w), jointly with Victoria Perez - Online First, International Journal of Health Economics and Management
 
+[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Forthcoming at the Journal of Political Institutions and Political Economy
+
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Accepted at Journal of Law & Economics
 
 [“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Accepted at Journal of Law, Economics, and Organization
-
-[“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Conditionally accepted at the Journal of Political Institutions and Political Economy
 
 # Working Papers
 
