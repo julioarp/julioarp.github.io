@@ -15,14 +15,15 @@ Ostrom Workshop, Indiana University
 
 [Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259) \
 Julio A. Ramos Pastrana \
-Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
+Kyklos, 74(2): 270-297. 2021
 
 [The Spanish Mission Legacy on Native American Reservations](https://nowpublishers.com/article/Details/HPE-0039) \
 Lee J. Alston, Marie Duggan and Julio A. Ramos Pastrana \
-Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
+ Journal of Historical Political Economy, 2(4): 527-551. 2022 [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
 
-["Finding Fraud: Enforcement, Detection, and Recoveries after the ACA"](https://link.springer.com/article/10.1007/s10754-023-09357-w), jointly with Victoria Perez - Online First, International Journal of Health Economics and Management
-
+["Finding Fraud: Enforcement, Detection, and Recoveries after the ACA"](https://link.springer.com/article/10.1007/s10754-023-09357-w),  Victoria Perez and Julio A. Ramos Pastrana \
+International Journal of Health Economics and Management, 23: 393-409. 2023
+ 
 [“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) - Online First, Economics & Politics [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Forthcoming at the Journal of Political Institutions and Political Economy
