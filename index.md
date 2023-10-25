@@ -9,7 +9,7 @@ Ostrom Workshop, Indiana University
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/9eab64cf0b6a5a8ee77573cc331d1221f2b7fe20/Resume%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Program Evaluation, Health Economics, Property Rights to Land, Telecommunications Policy, Political Economy
+**Research Interests :** Program Evaluation, Health Economics, Development Economics, Political Economy
 
 # Publications
 
@@ -21,31 +21,31 @@ Kyklos, Volume 74, Issue 2, Pages 270-297, 2021.
 Lee J. Alston, Marie Duggan and Julio A. Ramos Pastrana \
 Journal of Historical Political Economy: Vol. 2, No. 4, Pages 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
 
-[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) - Online First, Economics & Politics [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
-
 ["Finding Fraud: Enforcement, Detection, and Recoveries after the ACA"](https://link.springer.com/article/10.1007/s10754-023-09357-w), jointly with Victoria Perez - Online First, International Journal of Health Economics and Management
+
+[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230) - Online First, Economics & Politics [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Forthcoming at the Journal of Political Institutions and Political Economy
 
-[“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Accepted at Journal of Law & Economics
+[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Forthcoming at Journal of Law, Economics, and Organization
 
-[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Accepted at Journal of Law, Economics, and Organization
+[“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Accepted at Journal of Law & Economics
 
 # Working Papers
 
 [“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Revisions resubmitted at **Journal of Housing Economics**
 
-“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Revisions requested at **Journal of Population Economics**
+“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Revisions resubmitted at **Journal of Population Economics**
 
 “The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions requested at **Local Government Studies**
 
-[“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething
+[“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething - Submitted
+
+"The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva - Submitted
+
+“Unveiling Disparities: A Study on Wage Gaps Among Public and Private Employees”, jointly with Victoria Perez - Submitted
 
 # Work in Progress
-
-“Unveiling Disparities: A Study on Wage Gaps Among Public and Private Employees”, jointly with Victoria Perez
-
-"The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva
 
 “Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
 
