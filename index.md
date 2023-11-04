@@ -7,9 +7,9 @@ Inter-American Development Bank
 External Faculty Affiliate.
 Ostrom Workshop, Indiana University
 
-[CV](https://github.com/julioarp/julioarp.github.io/blob/9eab64cf0b6a5a8ee77573cc331d1221f2b7fe20/Resume%20Julio%20A.%20Ramos%20Pastrana.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
+[CV] (https://github.com/julioarp/julioarp.github.io/blob/9d05920d2f70424b87c5fe49134fb02b4e9a9e84/Resume%20Julio%20A.%20Ramos%20Pastrana%20Nov%202023.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Program Evaluation, Health Economics, Development Economics, Political Economy
+**Research Interests :** Impact Evaluation, Health Economics, Development Economics, Telecommunications Policy, Political Economy
 
 # Publications
 
