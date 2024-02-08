@@ -28,8 +28,8 @@ International Journal of Health Economics and Management, 23: 393-409. 2023
 
 [“Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309), jointy with Johabed G. Olvera and Claudia N. Avellaneda - Forthcoming at the Journal of Political Institutions and Political Economy
 
-[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Forthcoming at Journal of Law, Economics, and Organization
-LSE Blog (https://blogs.lse.ac.uk/usappblog/2024/01/24/the-rise-of-environmental-polarization-in-congress-shows-how-partisanship-drives-interest-groups-and-campaign-contributions-on-emerging-issues/)
+[“Interest Groups, Partisan Politics, and Environmental Polarization”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572), jointly with Dean Lueck and Gustavo Torrens - Forthcoming at Journal of Law, Economics, and Organization \
+[LSE Blog](https://blogs.lse.ac.uk/usappblog/2024/01/24/the-rise-of-environmental-polarization-in-congress-shows-how-partisanship-drives-interest-groups-and-campaign-contributions-on-emerging-issues/)
 
 [“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Accepted at Journal of Law & Economics
 
