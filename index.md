@@ -35,7 +35,7 @@ International Journal of Health Economics and Management, 23: 393-409. 2023
 
 # Working Papers
 
-[“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Revisions resubmitted at **Journal of Housing Economics**
+[“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Conditionally accepted at **Journal of Housing Economics**
 
 “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Revisions resubmitted at **Journal of Population Economics**
 
