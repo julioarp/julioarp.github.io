@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/julioarp/julioarp.github.io/blob/4cdbb33a8fed6c08a4d276ba957bd68dba4294f8/MicrosoftTeams-image.png" width="400"> 
+<img align="center" src="https://github.com/julioarp/julioarp.github.io/blob/4cdbb33a8fed6c08a4d276ba957bd68dba4294f8/MicrosoftTeams-image.png" width="600"> 
 
 # Julio A. Ramos Pastrana
 Impact Evaluation Consultant.
