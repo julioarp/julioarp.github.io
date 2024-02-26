@@ -1,4 +1,4 @@
-<img align="center" src="open_house.jpg" width="400">
+<img align="center" src="open_house.jpg" width="500">
 
 # Julio A. Ramos Pastrana
 Impact Evaluation Consultant.
