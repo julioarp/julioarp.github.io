@@ -55,26 +55,3 @@ International Journal of Health Economics and Management, 23: 393-409. 2023
 
 “The Economic Effect of Dominant-Party Alternation in Mexican States”, jointly with Francisco A. Castellanos-Sosa
 
-# Courses Taught
-
-## Instructor:
-
-Economic Analysis for Public Policy (PPOL 802), Penn State University (Fall 2020, Fall 2021, Fall 2022)
-
-Public Policy Analysis (PPOL 809), Penn State University (Spring 2021)
-
-Political Economy (ECON 407), Penn State University (Spring 2022)
-
-Policy and Program Evaluation (PPOL 810), Penn State University (Spring 2022, Spring 2023)
-
-Statistics for Public Policy II (PPOL 506), Penn State University (Spring 2023)
-
-## Teaching Assistant:
-
-Theory of Prices and Markets I (Microeconomics 1st year PhD sequence course), Indiana University (Fall 2018, Fall 2019)
-
-Theory of Prices and Markets II (Microeconomics 1st year PhD sequence course), Indiana University (Spring 2016, Spring 2019)
-
-Introduction to Microeconomics, Indiana University (Fall 2015)
-
-
