@@ -39,7 +39,7 @@ International Journal of Health Economics and Management, 23: 393-409. 2023
 
 “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Revisions resubmitted at **Journal of Population Economics**
 
-“The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions requested at **Local Government Studies**
+“The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions resubmitted at **Local Government Studies**
 
 [“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething - Submitted
 
