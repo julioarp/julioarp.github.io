@@ -41,6 +41,8 @@ International Journal of Health Economics and Management, 23: 393-409. 2023
 
 [“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Revisions resubmitted (2nd round) at **Journal of Housing Economics**
 
+[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff
+
 [“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething - Submitted
 
 "The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva - Submitted
