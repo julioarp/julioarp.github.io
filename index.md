@@ -9,7 +9,7 @@ Ostrom Workshop, Indiana University
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/9d05920d2f70424b87c5fe49134fb02b4e9a9e84/Resume%20Julio%20A.%20Ramos%20Pastrana%20Nov%202023.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
-**Research Interests :** Impact Evaluation, Health Economics, Development Economics, Telecommunications Policy, Political Economy
+**Research Interests :** Public Finance, Institutional Economics, Development Economics, Health Economics
 
 # Publications
 
@@ -35,11 +35,11 @@ International Journal of Health Economics and Management, 23: 393-409. 2023
 
 “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Accepted at **Journal of Population Economics**
 
+[“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Accepted at **Journal of Housing Economics**
+
 # Working Papers
 
 “The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions resubmitted at **Local Government Studies**
-
-[“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Revisions resubmitted (2nd round) at **Journal of Housing Economics**
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
