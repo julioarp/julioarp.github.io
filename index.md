@@ -23,13 +23,13 @@ Lueck, Dean, and Julio A. Ramos Pastrana. “[The Institutional Legacy of Mexica
 
 Ramos Pastrana, Julio A., Johabed G. Olvera, and Claudia N. Avellaneda. 2023. “[Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities.](https://www.nowpublishers.com/article/Details/PIP-0081)” Journal of Political Institutions and Political Economy 4, no. 3 (2023): 333-371. [“SSRN”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309)
 
-Ramos Pastrana, Julio A. “[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks.](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230)”, Economics & Politics 36, no. 3 (2022): 7-38. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
+Ramos Pastrana, Julio A. “[“Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks.](https://onlinelibrary.wiley.com/doi/10.1111/ecpo.12230)” Economics & Politics 36, no. 3 (2022): 7-38. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3983339)
 
-Victoria Perez, and Julio A. Ramos Pastrana. “[Finding Fraud: Enforcement, Detection, and Recoveries after the ACA.](https://link.springer.com/article/10.1007/s10754-023-09357-w)”, International Journal of Health Economics and Management 23, no. 3 (2023): 393-409.
+Victoria Perez, and Julio A. Ramos Pastrana. “[Finding Fraud: Enforcement, Detection, and Recoveries after the ACA.](https://link.springer.com/article/10.1007/s10754-023-09357-w)” International Journal of Health Economics and Management 23, no. 3 (2023): 393-409.
 
-Lee J. Alston, Marie Duggan, and Julio A. Ramos Pastrana. “[The Spanish Mission Legacy on Native American Reservations.](https://nowpublishers.com/article/Details/HPE-0039)”, Journal of Historical Political Economy 2, no. 4 (2022): 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
+Lee J. Alston, Marie Duggan, and Julio A. Ramos Pastrana. “[The Spanish Mission Legacy on Native American Reservations.](https://nowpublishers.com/article/Details/HPE-0039)” Journal of Historical Political Economy 2, no. 4 (2022): 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
 
-Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)”, Kyklos 74, no. 2 (2021): 270-297.
+Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)” Kyklos 74, no. 2 (2021): 270-297.
 
 # Working Papers
 
