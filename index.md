@@ -13,13 +13,25 @@ Ostrom Workshop, Indiana University
 
 # Publications
 
-[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259) \
-Julio A. Ramos Pastrana \
-Kyklos, 74(2): 270-297. 2021
+Johabed G. Olvera, and Julio A. Ramos Pastrana. “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera – Accepted at Journal of Population Economics (2024).
 
-[The Spanish Mission Legacy on Native American Reservations](https://nowpublishers.com/article/Details/HPE-0039) \
-Lee J. Alston, Marie Duggan and Julio A. Ramos Pastrana \
- Journal of Historical Political Economy, 2(4): 527-551. 2022 [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
+Johabed G. Olvera, Felipe Lozano-Rojas, Julio A. Ramos Pastrana, and Sumedha Gupta “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling” – Accepted at Journal of Housing Economics (2024).
+
+Lueck, Dean, Julio A. Ramos Pastrana, and Gustavo Torrrens. “Campaign Contributions, Partisan Politics, and Environmental Polarization in the US Congress.”, The Journal of Law, Economics and Organization (2023): ewad018.
+
+Lueck, Dean, and Julio A. Ramos Pastrana. “The Institutional Legacy of Mexican Land and Water in California”. The Journal of Law and Economics 67, no. 1 (2024): 31-66.
+
+Ramos Pastrana, Julio A., Johabed G. Olvera, and Claudia N. Avellaneda. 2023. “Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities”, Journal of Political Institutions and Political Economy 4, no. 3 (2023): 333-371.
+
+Ramos Pastrana, Julio A. “Hit From Abroad: Party Dominance and the Fiscal Response to External Economic Shocks”, Economics & Politics 36, no. 3 (2022): 7-38.
+
+Victoria Perez, and Julio A. Ramos Pastrana. “Finding Fraud: Enforcement, Detection, and Recoveries after the ACA”, International Journal of Health Economics and Management 23, no. 3 (2023): 393-409.
+
+Lee J. Alston, Marie Duggan, and Julio A. Ramos Pastrana. “[The Spanish Mission Legacy on Native American Reservations](https://nowpublishers.com/article/Details/HPE-0039)”, Journal of Historical Political Economy 2, no. 4 (2022): 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
+
+Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)”, Kyklos 74, no. 2 (2021): 270-297.
+
+
 
 ["Finding Fraud: Enforcement, Detection, and Recoveries after the ACA"](https://link.springer.com/article/10.1007/s10754-023-09357-w),  Victoria Perez and Julio A. Ramos Pastrana \
 International Journal of Health Economics and Management, 23: 393-409. 2023
