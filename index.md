@@ -15,11 +15,11 @@ Ostrom Workshop, Indiana University
 
 Johabed G. Olvera, and Julio A. Ramos Pastrana. “Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera – Accepted at Journal of Population Economics (2024).
 
-Johabed G. Olvera, Felipe Lozano-Rojas, Julio A. Ramos Pastrana, and Sumedha Gupta “Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling” – Accepted at Journal of Housing Economics (2024).
+Johabed G. Olvera, Felipe Lozano-Rojas, Julio A. Ramos Pastrana, and Sumedha Gupta “[Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200)” – Accepted at Journal of Housing Economics (2024).
 
-Lueck, Dean, Julio A. Ramos Pastrana, and Gustavo Torrrens. “Campaign Contributions, Partisan Politics, and Environmental Polarization in the US Congress.”, The Journal of Law, Economics and Organization (2023): ewad018.
+Lueck, Dean, Julio A. Ramos Pastrana, and Gustavo Torrrens. “[Campaign Contributions, Partisan Politics, and Environmental Polarization in the US Congress](https://academic.oup.com/jleo/advance-article-abstract/doi/10.1093/jleo/ewad018/7328886?redirectedFrom=fulltext)”, The Journal of Law, Economics and Organization (2023): ewad018. [LSE Blog](https://blogs.lse.ac.uk/usappblog/2024/01/24/the-rise-of-environmental-polarization-in-congress-shows-how-partisanship-drives-interest-groups-and-campaign-contributions-on-emerging-issues/) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572)
 
-Lueck, Dean, and Julio A. Ramos Pastrana. “The Institutional Legacy of Mexican Land and Water in California”. The Journal of Law and Economics 67, no. 1 (2024): 31-66.
+Lueck, Dean, and Julio A. Ramos Pastrana. “The Institutional Legacy of Mexican Land and Water in California”. The Journal of Law and Economics 67, no. 1 (2024): 31-66. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023)
 
 Ramos Pastrana, Julio A., Johabed G. Olvera, and Claudia N. Avellaneda. 2023. “[Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities](https://www.nowpublishers.com/article/Details/PIP-0081)”, Journal of Political Institutions and Political Economy 4, no. 3 (2023): 333-371. [“SSRN”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309)
 
@@ -30,20 +30,6 @@ Victoria Perez, and Julio A. Ramos Pastrana. “["Finding Fraud: Enforcement, De
 Lee J. Alston, Marie Duggan, and Julio A. Ramos Pastrana. “[The Spanish Mission Legacy on Native American Reservations](https://nowpublishers.com/article/Details/HPE-0039)”, Journal of Historical Political Economy 2, no. 4 (2022): 527-551. [NBER](https://www.nber.org/papers/w30251) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155750)
 
 Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)”, Kyklos 74, no. 2 (2021): 270-297.
-
-
-
-
-
-
-[“Campaign contributions, partisan politics, and environmental polarization in the US Congress”](https://academic.oup.com/jleo/advance-article-abstract/doi/10.1093/jleo/ewad018/7328886?redirectedFrom=fulltext), jointly with Dean Lueck and Gustavo Torrens - Journal of Law, Economics, and Organization - Online First
-[LSE Blog](https://blogs.lse.ac.uk/usappblog/2024/01/24/the-rise-of-environmental-polarization-in-congress-shows-how-partisanship-drives-interest-groups-and-campaign-contributions-on-emerging-issues/) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572)
-
-[“The Institutional Legacy of the Mexican Rancho System in California”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023), jointly with Dean Lueck - Forthcoming at Journal of Law & Economics
-
-“Improving Maternal and Infant Health Through Prenatal Care Home Visits”, jointly with Johabed G. Olvera - Accepted at **Journal of Population Economics**
-
-[“Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200), jointly with Johabed G. Olvera, Felipe Lozano-Rojas, and Sumedha Gupta - Accepted at **Journal of Housing Economics**
 
 # Working Papers
 
