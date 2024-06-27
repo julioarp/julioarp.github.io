@@ -21,7 +21,7 @@ Lueck, Dean, and Julio A. Ramos Pastrana. “[The Institutional Legacy of Mexica
 
 Lueck, Dean, Julio A. Ramos Pastrana, and Gustavo Torrrens. “[Campaign Contributions, Partisan Politics, and Environmental Polarization in the US Congress.](https://academic.oup.com/jleo/advance-article-abstract/doi/10.1093/jleo/ewad018/7328886?redirectedFrom=fulltext)” The Journal of Law, Economics and Organization (2023): ewad018. [LSE Blog](https://blogs.lse.ac.uk/usappblog/2024/01/24/the-rise-of-environmental-polarization-in-congress-shows-how-partisanship-drives-interest-groups-and-campaign-contributions-on-emerging-issues/) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4138572)
 
-Ramos Pastrana, Julio A., Johabed G. Olvera, and Claudia N. Avellaneda. 2023. “[Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities.](https://www.nowpublishers.com/article/Details/PIP-0081)” Journal of Political Institutions and Political Economy 4, no. 3 (2023): 333-371. [“SSRN”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309)
+Ramos Pastrana, Julio A., Johabed G. Olvera, and Claudia N. Avellaneda. “[Do Political Hawks Prioritize Different Policies Than Technocrats?  Politicization and Governors' Spending Priorities.](https://www.nowpublishers.com/article/Details/PIP-0081)” Journal of Political Institutions and Political Economy 4, no. 3 (2023): 333-371. [“SSRN”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4169309)
 
 Victoria Perez, and Julio A. Ramos Pastrana. “[Finding Fraud: Enforcement, Detection, and Recoveries after the ACA.](https://link.springer.com/article/10.1007/s10754-023-09357-w)” International Journal of Health Economics and Management 23, no. 3 (2023): 393-409.
 
