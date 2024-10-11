@@ -13,6 +13,8 @@ Ostrom Workshop, Indiana University
 
 # Publications
 
+Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.” - Accepted at Local Government Studies (2024).
+
 Johabed G. Olvera, and Julio A. Ramos Pastrana. “Improving Maternal and Infant Health Through Prenatal Care Home Visits.” – Accepted at Journal of Population Economics (2024).
 
 Johabed G. Olvera, Felipe Lozano-Rojas, Julio A. Ramos Pastrana, and Sumedha Gupta “[Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200)” – Accepted at Journal of Housing Economics (2024).
@@ -32,8 +34,6 @@ Lee J. Alston, Marie Duggan, and Julio A. Ramos Pastrana. “[The Spanish Missio
 Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)” Kyklos 74, no. 2 (2021): 270-297.
 
 # Working Papers
-
-“The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action”, jointly with Ricardo A. Bello-Gomez - Revisions resubmitted at **Local Government Studies**
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
