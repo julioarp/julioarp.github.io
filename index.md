@@ -13,7 +13,7 @@ Ostrom Workshop, Indiana University
 
 # Publications
 
-Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.” - Accepted at Local Government Studies (2024).
+10 Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.” - Accepted at Local Government Studies (2024).
 
 Johabed G. Olvera, and Julio A. Ramos Pastrana. “Improving Maternal and Infant Health Through Prenatal Care Home Visits.” – Accepted at Journal of Population Economics (2024).
 
