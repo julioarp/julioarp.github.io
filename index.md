@@ -35,19 +35,10 @@ Ostrom Workshop, Indiana University
 
 # Working Papers
 
-[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
-
-[“Moving for Welfare: The Effect of ACA Medicaid Expansion on Homelessness”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4237805), jointly with Johabed Olvera and Hilary Wething - Submitted
-
 "The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva - Submitted
 
-“Unveiling Disparities: A Study on Wage Gaps Among Public and Private Employees”, jointly with Victoria Perez - Submitted
+[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
-# Work in Progress
+"ACA Medicaid Expansion and Homelessness: Increasing the Overall Capacity of the Safety Net", jointly with Johabed Olvera - Submitted
 
-“Reelection Incentives, Political Budget Cycles and Fiscal Policy:  Evidence from Mexico’s Local Governments”, jointly with Gustavo Torrens
-
-“Economic and Ideological Motivations of Bureaucrats Decision-Making: Evidence from Brazil”, jointly with Paula Rettl, Anthony Bertelli, and Tainá Souza
-
-“The Economic Effect of Dominant-Party Alternation in Mexican States”, jointly with Francisco A. Castellanos-Sosa
 
