@@ -35,7 +35,7 @@ Ostrom Workshop, Indiana University
 
 # Working Papers
 
-"The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva - Submitted
+"The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva and Sully Calderón - Submitted
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
