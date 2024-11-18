@@ -39,6 +39,8 @@ Ostrom Workshop, Indiana University
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
-"ACA Medicaid Expansion and Homelessness: Increasing the Overall Capacity of the Safety Net", jointly with Johabed Olvera - Submitted
+"ACA Medicaid Expansion and Homelessness: Increasing the Overall Capacity of the Safety Net", jointly with Johabed Olvera
+
+"Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico", jointly with Mario Miguel Pérez
 
 
