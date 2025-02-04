@@ -33,6 +33,13 @@ Ostrom Workshop, Indiana University
 
 (1)  Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)” Kyklos 74, no. 2 (2021): 270-297.
 
+# Other Publications
+
+Land Reform in Latin America. 2025. Elgar Encyclopedia of Latin American Politics.
+
+Political Economy in Latin America. 2025. Elgar Encyclopedia of Latin American Politics, jointly with Gustavo Torrens.
+
+
 # Working Papers
 
 "The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico", jointly with Rodrigo Alcázar Silva and Sully Calderón - Submitted
