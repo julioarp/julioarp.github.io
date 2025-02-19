@@ -13,11 +13,11 @@ Ostrom Workshop, Indiana University
 
 # Publications
 
-(10) Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “[The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.](https://www.tandfonline.com/doi/full/10.1080/03003930.2024.2420237?src=)” - Online First at Local Government Studies (2024).
+(10) Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “[The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.](https://www.tandfonline.com/doi/full/10.1080/03003930.2024.2420237?src=)” Local Government Studies (2024): 1-25.
 
-(9)  Johabed G. Olvera, and Julio A. Ramos Pastrana. “[Enhancing information to improve outcomes: the impact of home visiting programs on maternal health.](https://link.springer.com/article/10.1007/s00148-024-01050-7?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241113&utm_content=10.1007/s00148-024-01050-7)” – Online First at Journal of Population Economics (2024).
+(9)  Johabed G. Olvera, and Julio A. Ramos Pastrana. “[Enhancing information to improve outcomes: the impact of home visiting programs on maternal health.](https://link.springer.com/article/10.1007/s00148-024-01050-7?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241113&utm_content=10.1007/s00148-024-01050-7)” Journal of Population Economics 37, no. 4 (2024): 1-36.
 
-(8)  Johabed G. Olvera, Felipe Lozano-Rojas, Julio A. Ramos Pastrana, and Sumedha Gupta “[Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200)” – Accepted at Journal of Housing Economics (2024).
+(8)  Johabed G. Olvera, Felipe Lozano-Rojas, Julio A. Ramos Pastrana, and Sumedha Gupta “[Opioid Prescribing Restrictions and Homelessness: Evidence from Hydrocodone Rescheduling.](https://www.sciencedirect.com/science/article/abs/pii/S1051137724000299)” Journal of Housing Economics 66 (2024): 102010. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4386200)
 
 (7)  Lueck, Dean, and Julio A. Ramos Pastrana. “[The Institutional Legacy of Mexican Land and Water in California.](https://www.journals.uchicago.edu/doi/abs/10.1086/726019?journalCode=jle)” The Journal of Law and Economics 67, no. 1 (2024): 31-66. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4145023)
 
