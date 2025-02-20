@@ -35,9 +35,9 @@ Ostrom Workshop, Indiana University
 
 # Other Publications
 
-Land Reform in Latin America. 2025. Elgar Encyclopedia of Latin American Politics.
+Land Reform in Latin America. Elgar Encyclopedia of Latin American Politics. Forthcoming.
 
-Political Economy in Latin America. 2025. Elgar Encyclopedia of Latin American Politics, jointly with Gustavo Torrens.
+Political Economy in Latin America. Elgar Encyclopedia of Latin American Politics, jointly with Gustavo Torrens. Forthcoming.
 
 
 # Working Papers
