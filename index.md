@@ -45,10 +45,11 @@ Political Economy in Latin America. Elgar Encyclopedia of Latin American Politic
 
 ["The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600), jointly with Rodrigo Alcázar Silva and Sully Calderón - Submitted
 
-[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
+[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award, Submitted
+
+"Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico", jointly with Mario Miguel Pérez - Submitted
 
 "ACA Medicaid Expansion and Homelessness: Increasing the Overall Capacity of the Safety Net", jointly with Johabed Olvera
 
-"Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico", jointly with Mario Miguel Pérez
 
 
