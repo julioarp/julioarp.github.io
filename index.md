@@ -34,18 +34,18 @@ Ostrom Workshop, Indiana University
 
 (1)  Julio A. Ramos Pastrana. “[Who's Getting the Office: Party Dominance and Elected Executives Career Path](https://onlinelibrary.wiley.com/doi/full/10.1111/kykl.12259)” Kyklos 74, no. 2 (2021): 270-297.
 
-# Other Publications
+# Peer Reviewed Book Chapters
 
-Land Reform in Latin America. Elgar Encyclopedia of Latin American Politics. Forthcoming.
+Land Reform in Latin America. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
 
-Political Economy in Latin America. Elgar Encyclopedia of Latin American Politics, jointly with Gustavo Torrens. Forthcoming.
+Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
 
 
 # Working Papers
 
-["The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600), jointly with Rodrigo Alcázar Silva and Sully Calderón - Submitted
+["The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600), jointly with Rodrigo Alcázar Silva and Sully Calderón - Revisions requested at Telecommunications Policy
 
-[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award, Submitted
+[“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award, Under Review
 
 "Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico", jointly with Mario Miguel Pérez - Submitted
 
