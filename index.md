@@ -49,4 +49,8 @@ Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclop
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
+# Work in Progress
+
+Reelection Incentives, Political Budget Cycles and Fiscal Policy: Evidence from the Removal of Reelection Constraints in Mexico’s Local Governments, jointly with Gustavo Torrens and Jinzhe Xiang
+
 
