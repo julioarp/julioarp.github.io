@@ -14,6 +14,8 @@ Ostrom Workshop, Indiana University
 
 # Publications
 
+(11)  Rodrigo Alcázar Silva, Sully Calderón and Julio A. Ramos Pastrana. ["The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600) - Accepted at Telecommunications Policy
+
 (10) Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “[The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.](https://www.tandfonline.com/doi/full/10.1080/03003930.2024.2420237?src=)” Local Government Studies (2024): 1-25.
 
 (9)  Johabed G. Olvera, and Julio A. Ramos Pastrana. “[Enhancing information to improve outcomes: the impact of home visiting programs on maternal health.](https://link.springer.com/article/10.1007/s00148-024-01050-7?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241113&utm_content=10.1007/s00148-024-01050-7)” Journal of Population Economics 37, no. 4 (2024): 1-36.
@@ -42,8 +44,6 @@ Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclop
 
 
 # Working Papers
-
-["The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600), jointly with Rodrigo Alcázar Silva and Sully Calderón - Revisions resubmitted at Telecommunications Policy
 
 "Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico", jointly with Mario Miguel Pérez - Submitted
 
