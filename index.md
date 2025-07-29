@@ -45,7 +45,7 @@ Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclop
 
 # Working Papers
 
-"Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico", jointly with Mario Miguel Pérez - Submitted
+["Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5363619), jointly with Mario Miguel Pérez - Submitted
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
 
