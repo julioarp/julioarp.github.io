@@ -14,7 +14,7 @@ Ostrom Workshop, Indiana University
 
 # Publications
 
-(11)  Rodrigo Alcázar Silva, Sully Calderón and Julio A. Ramos Pastrana. ["The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600) - Accepted at Telecommunications Policy
+(11)  Rodrigo Alcázar Silva, Sully Calderón and Julio A. Ramos Pastrana. "The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico" - Accepted at Telecommunications Policy [El Economista](https://www.eleconomista.com.mx/opinion/servido-regulacion-preponderancia-20250828-774663.html) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600)
 
 (10) Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “[The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.](https://www.tandfonline.com/doi/full/10.1080/03003930.2024.2420237?src=)” Local Government Studies (2024): 1-25.
 
