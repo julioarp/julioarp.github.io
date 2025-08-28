@@ -2,11 +2,17 @@
 
 # Julio A. Ramos Pastrana
 
-Impact Evaluation Consultant.
-Inter-American Development Bank
+Hello, welcome to my personal website. 
 
-External Faculty Affiliate.
-Ostrom Workshop, Indiana University
+I am an applied microeconomist with over 7 years of experience leveraging economic theory, econometric analysis, and cost-benefit methodologies to assess and enhance the impact of development projects.  
+
+I am currently an impact evaluation consultant at the Inter-American Development Bank and an External Faculty Affiliate at the Ostrom Workshop at Indiana University. 
+
+I am skilled in translating complex data into actionable insights to improve policy effectiveness and project outcomes. I have experience in international organizations, academia and government. 
+
+I have published more than a dozen policy relevant peer-reviewed economic papers in the areas of development economics, public finance, telecommunications, health and institutional economics using impact evaluation techniques.
+
+You can contact me at jaramos@colmex.mx
 
 [CV](https://github.com/julioarp/julioarp.github.io/blob/9d05920d2f70424b87c5fe49134fb02b4e9a9e84/Resume%20Julio%20A.%20Ramos%20Pastrana%20Nov%202023.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
