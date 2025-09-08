@@ -20,7 +20,7 @@ You can contact me at jaramos@colmex.mx
 
 # Publications
 
-(11)  Rodrigo Alcázar Silva, Sully Calderón and Julio A. Ramos Pastrana. "The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico" - Accepted at Telecommunications Policy [El Economista](https://www.eleconomista.com.mx/opinion/servido-regulacion-preponderancia-20250828-774663.html) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600)
+(11)  Rodrigo Alcázar Silva, Sully Calderón and Julio A. Ramos Pastrana. "[The effect of asymmetric regulation on market competition: the case of 2013 Telecomm Reform in Mexico](https://www.sciencedirect.com/science/article/abs/pii/S0308596125001284#:~:text=Results%20provide%20evidence%20that%20the,improved%20consumer%20welfare%20by%20prompting)" - Accepted at Telecommunications Policy [El Economista](https://www.eleconomista.com.mx/opinion/servido-regulacion-preponderancia-20250828-774663.html) [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5159600)
 
 (10) Julio A. Ramos Pastrana and Ricardo A. Bello-Gomez. “[The Accountability Effect of Term Limits on Local Government Performance: Performative Signaling of Governmental Action.](https://www.tandfonline.com/doi/full/10.1080/03003930.2024.2420237?src=)” Local Government Studies (2024): 1-25.
 
