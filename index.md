@@ -6,7 +6,7 @@ Hello, welcome to my personal website.
 
 I am an applied microeconomist with over 7 years of experience leveraging economic theory, econometric analysis, and cost-benefit methodologies to assess and enhance the impact of development projects.  
 
-I am currently an impact evaluation consultant at the Inter-American Development Bank and an External Faculty Affiliate at the Ostrom Workshop at Indiana University. 
+I am currently an Operations Specialist at the Inter-American Development Bank and an External Faculty Affiliate at the Ostrom Workshop at Indiana University. 
 
 I am skilled in translating complex data into actionable insights to improve policy effectiveness and project outcomes. I have experience in international organizations, academia and government. 
 
