@@ -59,4 +59,4 @@ Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclop
 
 Reelection Incentives, Political Budget Cycles and Fiscal Policy: Evidence from the Removal of Reelection Constraints in Mexico’s Local Governments, jointly with Gustavo Torrens and Jinzhe Xiang
 
-
+The views expressed on this website are my own and do not necessarily reflect the views of the Inter -American Development Bank (IDB), its Board of Directors, or the countries they represent. 
