@@ -51,6 +51,8 @@ Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclop
 
 # Working Papers
 
+Re-centralization and Healthcare Service Delivery: Capacity Gains, Proximity Losses, and Partisan Alignment in Mexico, jointly with Johabed G. Olvera and Guillermo Cejudo. Under Review at International Journal of Public Administration. 
+
 ["Property Rights Changes and Public Investment: Evidence from a Land Certification Program in Mexico"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5363619), jointly with Mario Miguel Pérez - Submitted
 
 [“Hospitals, Maternal and Infant Health: Impact of the Opening of Public Hospitals in Mexico”](https://publications.iadb.org/en/hospitals-maternal-and-infant-health-impact-opening-public-hospitals-mexico), jointly with Eduardo Fajnzylber and Sebastian Bauhoff - Winner 2024 ASHECON Health and Development Program Chair Award
