@@ -14,7 +14,7 @@ I have published more than a dozen policy relevant peer-reviewed economic papers
 
 You can contact me at jaramos@colmex.mx
 
-[CV](https://github.com/julioarp/julioarp.github.io/blob/9d05920d2f70424b87c5fe49134fb02b4e9a9e84/Resume%20Julio%20A.%20Ramos%20Pastrana%20Nov%202023.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
+[CV](https://github.com/julioarp/julioarp.github.io/blob/4f668be0aac3dff5b467a703a4fc259c4d65d8cd/Resume%20Julio%20A.%20Ramos%20Pastrana%20.pdf), [Twitter](https://twitter.com/JulioRamosEcon), [LinkedIn](www.linkedin.com/in/julio-ramos-7a86ba199), [Google Scholar](https://scholar.google.com/citations?user=anbXBNAAAAAJ&hl=en)
 
 **Research Interests :** Public Finance, Institutional Economics, Development Economics, Health Economics
 
