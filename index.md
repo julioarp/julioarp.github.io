@@ -46,7 +46,7 @@ You can contact me at jaramos@colmex.mx
 
 Land Reform in Latin America. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
 
-Political Economy in Latin America, jointly with Gustavo Torrens. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
+Political Economy: Latin America in its Growth Labyrinth, jointly with Gustavo Torrens. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
 
 
 # Working Papers
