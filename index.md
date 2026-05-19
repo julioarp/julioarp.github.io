@@ -44,9 +44,9 @@ You can contact me at jaramos@colmex.mx
 
 # Peer Reviewed Book Chapters
 
-Land Reform in Latin America. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
+Land Reform in Latin America. [Elgar Encyclopedia of Latin American Politics](https://www.e-elgar.com/shop/usd/handbook-of-latin-american-politics-9781035325542.html). Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
 
-Political Economy: Latin America in its Growth Labyrinth, jointly with Gustavo Torrens. Elgar Encyclopedia of Latin American Politics. Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
+Political Economy: Latin America in its Growth Labyrinth, jointly with Gustavo Torrens. [Elgar Encyclopedia of Latin American Politics](https://www.e-elgar.com/shop/usd/handbook-of-latin-american-politics-9781035325542.html). Claudia Avellaneda, Ricardo Bello-Gomez and Nathalie Mendez Mendez (eds). Forthcoming.
 
 
 # Working Papers
