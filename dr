@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinculación de la Estrategia de País con la Cartera · EBP República Dominicana</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#e6f2fb;--panel:#d5e8f5;--ink:#1a2238;--muted:#5d6b85;--line:#bcd4e6;
+    --alta:#3fb96b;--media:#f2c14e;--baja:#e89b6e;
+    --p1:#d96846;--p2:#7bc47f;--p3:#e8956b;
+    --font:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--font);}
+  header{padding:28px 36px 18px;border-bottom:1px solid var(--line);background:#d5e8f5;}
+  h1{font-size:25px;margin:0 0 6px;letter-spacing:.2px;font-weight:600;color:var(--ink);font-family:var(--font);}
+  .sub{font-family:var(--font);font-size:13px;color:var(--muted);line-height:1.5;max-width:1140px;font-weight:400;}
+  .stats{display:flex;gap:30px;flex-wrap:wrap;margin:18px 36px 4px;font-family:var(--font);}
+  .stat .n{font-size:30px;font-weight:700;color:var(--ink);font-family:var(--font);}
+  .stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-weight:500;}
+  .legend{display:flex;gap:22px;flex-wrap:wrap;align-items:center;margin:14px 36px 4px;font-family:var(--font);font-size:12px;color:var(--muted);font-weight:400;}
+  .legend .grp{display:flex;gap:9px;align-items:center;}
+  .legend .sw{width:22px;height:0;border-top-width:3px;border-top-style:solid;}
+  .legend .dot{width:13px;height:13px;border-radius:3px;}
+  .legend .bar{width:130px;height:12px;border-radius:3px;background:linear-gradient(90deg,#e0524d 0%, #ef8a4d 25%, #f2c14e 50%, #b6c84a 75%, #3fb96b 100%);}
+  .note{margin:6px 36px 2px;font-family:var(--font);font-size:11px;color:var(--muted);font-style:italic;max-width:1140px;line-height:1.55;font-weight:400;}
+  svg{display:block;width:100%;background:transparent;font-family:var(--font);}
+  .node-label{font-family:var(--font);font-size:12px;fill:var(--ink);cursor:default;font-weight:500;}
+  .node-rect{cursor:pointer;}
+  .link{fill:none;transition:opacity .18s;}
+  .dim{opacity:.08 !important;}
+  .pilar-zone{opacity:1;}
+  .pilar-label{font-family:var(--font);font-size:13px;font-weight:700;letter-spacing:.5px;}
+  .colhead{font-family:var(--font);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;fill:#1f4f8a;}
+  .tip{position:fixed;pointer-events:none;background:#1a2238;border:1px solid var(--line);border-radius:8px;padding:11px 14px;font-family:var(--font);font-size:12px;color:#ffffff;max-width:480px;opacity:0;transition:opacity .12s;box-shadow:0 8px 26px rgba(0,0,0,.25);z-index:9;font-weight:400;}
+  footer{padding:14px 36px 30px;font-family:var(--font);font-size:11px;color:var(--muted);border-top:1px solid var(--line);font-weight:400;}
+
+  /* Insight panel */
+  .insight{margin:18px 36px 6px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;font-family:var(--font);}
+  .insight .card{background:#ffffff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;position:relative;overflow:hidden;}
+  .insight .card .bar{position:absolute;left:0;top:0;bottom:0;width:5px;}
+  .insight .card.green .bar{background:var(--alta);}
+  .insight .card.amber .bar{background:var(--media);}
+  .insight .card.red .bar{background:var(--baja);}
+  .insight .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);font-weight:600;margin-bottom:6px;}
+  .insight .val{font-size:32px;font-weight:700;line-height:1.1;color:var(--ink);}
+  .insight .val .small{font-size:16px;font-weight:500;color:var(--muted);margin-left:4px;}
+  .insight .desc{font-size:11px;color:var(--muted);margin-top:6px;line-height:1.45;}
+
+  .callout{margin:8px 36px 14px;background:#fff7e6;border-left:4px solid var(--media);border-radius:6px;padding:12px 16px;font-family:var(--font);font-size:12px;color:#5b4a1a;line-height:1.55;}
+  .callout b{color:#3d3208;}
+  .callout .title{display:block;font-weight:700;text-transform:uppercase;letter-spacing:.6px;font-size:11px;color:#7a5d10;margin-bottom:4px;}
+  .callout-list{margin:6px 0 0 18px;padding:0;}
+  .callout-list li{margin:4px 0;}
+
+  /* Tabs */
+  .tabs{display:flex;gap:4px;margin:18px 36px 0;border-bottom:2px solid var(--line);}
+  .tab{padding:10px 22px;font-family:var(--font);font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;border:2px solid transparent;border-bottom:none;border-radius:8px 8px 0 0;background:transparent;transition:all .15s;}
+  .tab:hover{color:var(--ink);background:rgba(31,79,138,.05);}
+  .tab.active{color:#1f4f8a;background:#ffffff;border-color:var(--line);border-bottom:2px solid #ffffff;margin-bottom:-2px;}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;}
+
+  /* Alignment table */
+  .align-table-wrap{margin:16px 36px 30px;overflow-x:auto;}
+  table.align-table{border-collapse:collapse;width:100%;font-family:var(--font);font-size:12px;background:#fff;}
+  table.align-table th{background:#1f4f8a;color:#fff;font-weight:600;text-align:left;padding:10px 12px;border:1px solid #15375f;position:sticky;top:0;}
+  table.align-table td{padding:9px 12px;border:1px solid var(--line);vertical-align:top;line-height:1.4;color:var(--ink);}
+  table.align-table tr:nth-child(even) td{background:#f7fafd;}
+  .badge{display:inline-block;padding:3px 9px;border-radius:10px;font-size:11px;font-weight:700;white-space:nowrap;}
+  .badge.strong{background:#c6efce;color:#1d6233;}
+  .badge.weak{background:#ffeb9c;color:#7a5d10;}
+  .badge.none{background:#f2f2f2;color:#888;}
+  .col-op{font-weight:700;white-space:nowrap;}
+  .col-num{text-align:center;font-weight:600;}
+</style>
+</head>
+<body>
+<header>
+  <h1>Vinculación de la Estrategia de País con la Cartera</h1>
+  <div class="sub">Cartera de República Dominicana — Encadenamiento de los <strong>Objetivos Estratégicos</strong> de la EBP con sus <strong>Resultados Esperados</strong> y las <strong>Operaciones</strong>, organizado por área estratégica. Las operaciones se colorean por su probabilidad de logro (gris si aún no se ha revisado); los resultados esperados y objetivos, por el promedio simple de probabilidad de las operaciones vinculadas con probabilidad revisada.</div>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="insight" id="insight"></div>
+<div class="callout" id="callout"></div>
+
+<div class="tabs">
+  <button class="tab active" data-tab="diagrama" onclick="switchTab('diagrama')">Diagrama de alineación</button>
+  <button class="tab" data-tab="tabla" onclick="switchTab('tabla')">Tabla de alineación por RE de operación</button>
+</div>
+
+<div class="tab-content active" id="tab-diagrama">
+<div class="legend">
+  <div class="grp"><span style="font-family:var(--font);font-weight:700;color:var(--ink)">Probabilidad de alcanzar resultados a nivel de operación según la última revisión de cartera:</span></div>
+  <div class="grp"><span class="dot" style="background:var(--alta)"></span> Alta</div>
+  <div class="grp"><span class="dot" style="background:var(--media)"></span> Media</div>
+  <div class="grp"><span class="dot" style="background:var(--baja)"></span> Baja</div>
+  <div class="grp" style="margin-left:14px"><span style="font-family:var(--font);font-weight:700;color:var(--ink)">Promedio RE/OE:</span></div>
+  <div class="grp"><span style="font-size:11px">1.0</span><span class="bar"></span><span style="font-size:11px">3.0</span></div>
+</div>
+<div class="note">Probabilidad de logro: Baja=1, Media=2, Alta=3. Promedio simple no ponderado de todas las operaciones alineadas. Umbrales de color — promedio ≤1.5 baja (rojo) · entre 1.5 y 2.4 media (amarillo) · ≥2.4 alta (verde).</div>
+<div class="legend" style="margin-top:4px">
+  <div class="grp"><span style="font-family:var(--font);font-weight:700;color:var(--ink)">Alineación:</span></div>
+  <div class="grp"><span class="sw" style="border-top-width:4px;border-top-color:var(--muted)"></span> Fuerte</div>
+  <div class="grp"><span class="sw" style="border-top-style:dashed;border-top-color:var(--muted)"></span> Débil</div>
+  <div class="grp"><span class="sw" style="border-top-style:dotted;border-top-color:#9aa5bb"></span> Sin cobertura</div>
+</div>
+<div class="note">Estilo de líneas resultado esperado → objetivo estratégico: fuerte cuando al menos 51% de las operaciones tienen alineación fuerte; débil en caso contrario.</div>
+<div class="note" style="display:flex;align-items:flex-start;gap:9px;max-width:1140px">
+  <svg width="22" height="22" viewBox="0 0 22 22" style="flex:0 0 22px;margin-top:-2px"><circle cx="11" cy="11" r="10" fill="#ffffff" stroke="#5d6b85" stroke-width="2"></circle><text x="11" y="14.5" text-anchor="middle" font-family="var(--font)" font-size="8.5" font-weight="700" fill="#1a2238">RE</text></svg>
+  <span style="line-height:1.55;font-style:normal">Cada círculo representa un <b>resultado esperado de la operación</b>; la numeración (RE1, RE2, …) es propia de cada operación. Pase el cursor sobre el círculo para ver su descripción, el resultado esperado de la EBP al que se vincula y la justificación.</span>
+</div>
+
+<svg id="chart"></svg>
+</div>
+
+<div class="tab-content" id="tab-tabla">
+  <div class="align-table-wrap" id="align-table-wrap"></div>
+</div>
+
+<div class="tip" id="tip"></div>
+<footer>Fuentes: Anexo I (Matriz de Resultados) de la EBP de República Dominicana; ejercicio de clasificación de alineación de la cartera y valoración de probabilidad de logro por operación. Elaboración: equipo de Efectividad en el Desarrollo de CID.</footer>
+
+<script>
+const PILARES={"P1":{name:"Fortalecer el capital humano y las condiciones sociales",color:"#5b8bbf"},"P2":{name:"Potenciar el crecimiento liderado por el sector privado",color:"#7bc47f"},"P3":{name:"Aumentar la eficiencia y resiliencia del sector público",color:"#e8956b"}};
+const ER={
+  "Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas":{p:"P1",obj:"Mejorar las condiciones de vida mediante mayor acceso a agua y saneamiento seguros"},
+  "Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo":{p:"P1",obj:"Mejorar las condiciones de vida mediante mayor acceso a agua y saneamiento seguros"},
+  "Aumenta la prevención y mejora la gestión de las enfermedades crónicas no transmisibles (ECNT)":{p:"P1",obj:"Fortalecer los servicios de salud y protección social, y fomentar el desarrollo de habilidades"},
+  "Mejora en los programas de protección social":{p:"P1",obj:"Fortalecer los servicios de salud y protección social, y fomentar el desarrollo de habilidades"},
+  "Mejoran los servicios para la formación de habilidades e inserción laboral":{p:"P1",obj:"Fortalecer los servicios de salud y protección social, y fomentar el desarrollo de habilidades"},
+  "Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria":{p:"P2",obj:"Proveer soluciones de transporte y logística resilientes y seguras"},
+  "Mejora la seguridad vial":{p:"P2",obj:"Proveer soluciones de transporte y logística resilientes y seguras"},
+  "Incrementa la eficiencia del sistema eléctrico":{p:"P2",obj:"Impulsar la sostenibilidad y eficiencia del sector eléctrico y minero"},
+  "Aumentan las fuentes de generación de energía":{p:"P2",obj:"Impulsar la sostenibilidad y eficiencia del sector eléctrico y minero"},
+  "Aumenta la inversión en minería sostenible":{p:"P2",obj:"Impulsar la sostenibilidad y eficiencia del sector eléctrico y minero"},
+  "Incrementan los productores agropecuarios que usan tecnología":{p:"P2",obj:"Mejorar la tecnificación de la agricultura y la sostenibilidad del capital natural y cultural"},
+  "Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados":{p:"P2",obj:"Mejorar la tecnificación de la agricultura y la sostenibilidad del capital natural y cultural"},
+  "Incrementa el crédito a segmentos desatendidos":{p:"P2",obj:"Aumentar el financiamiento productivo y al comercio internacional"},
+  "Aumenta la movilización de financiamiento a la inversión privada y el crédito al comercio internacional":{p:"P2",obj:"Aumentar el financiamiento productivo y al comercio internacional"},
+  "Mejora en eficiencia de la administración tributaria":{p:"P3",obj:"Fortalecer la sostenibilidad fiscal"},
+  "Aumenta la eficiencia y transparencia del gasto público":{p:"P3",obj:"Fortalecer la sostenibilidad fiscal"},
+  "Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial":{p:"P3",obj:"Integrar criterios de resiliencia en la inversión pública y mejorar la planificación territorial"}
+};
+const PROB={"DR-L1084":"Media","DR-L1122":"Baja","DR-L1128":"Media","DR-L1134":"N/A","DR-L1137":"N/A","DR-L1141":"Media","DR-L1142":"Baja","DR-L1147":"Media","DR-L1150":"Alta","DR-L1151":"Alta","DR-L1152":"Alta","DR-L1154":"Alta","DR-L1155":"Baja","DR-L1156":"Alta","DR-L1157":"Alta","DR-L1158":"Alta","DR-L1161":"N/A","DR-L1165":"Alta","DR-L1166":"Alta","DR-L1167":"Alta","DR-L1168":"N/A","DR-L1172":"N/A"};
+const PROBCOLOR={"Alta":"#3fb96b","Media":"#f2c14e","Baja":"#e89b6e","N/A":"#c2cad6"};
+const V={"Baja":1,"Media":2,"Alta":3};
+const EDGES=[
+  {op:`DR-L1084`, re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Recuperar los espacios públicos y monumentos históricos de la CCSD`, oeFull:`Recuperar los espacios públicos y monumentos históricos de la CCSD`, rationale:`Recupera espacios públicos y monumentos históricos de la Ciudad Colonial; los indicadores de visitantes a museos intervenidos y visitantes extranjeros a la CCSD reflejan la rehabilitación de espacios públicos e históricos del RE12.`},
+  {op:`DR-L1084`, re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`, feas:`Low`, align:`Weak`, oeIdx:2, oeShort:`Mejorar las condiciones de habitabilidad para los residentes de la CCSD`, oeFull:`Mejorar las condiciones de habitabilidad para los residentes de la CCSD`, rationale:`Mejora la habitabilidad de los residentes (viviendas inadecuadas, tenencia resoluble); acompaña la revitalización pero el indicador del RE12 mide la rehabilitación de espacios públicos/históricos, no vivienda, por lo que el aporte es indirecto.`},
+  {op:`DR-L1084`, re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`, feas:`Low`, align:`Weak`, oeIdx:4, oeShort:`Fortalecimiento de la gestión de Ciudad Colonial`, oeFull:`Fortalecimiento de la gestión de Ciudad Colonial`, rationale:`El fortalecimiento de la gestión de la Ciudad Colonial sostiene la conservación de los espacios rehabilitados, pero su aporte al indicador del RE12 es indirecto.`},
+  {op:`DR-L1122`, re:`Incrementa la eficiencia del sistema eléctrico`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo especifico I: Reducir el consumo de combustibles fosiles import…`, oeFull:`Objetivo especifico I: Reducir el consumo de combustibles fosiles importados para la generacion y consecuentemente el gasto publico`, rationale:`Reduce el consumo de combustibles fósiles para generación y el gasto público asociado; los indicadores de ahorro de energía por eficiencia energética en alumbrado público miden directamente la eficiencia del sistema eléctrico (RE8).`},
+  {op:`DR-L1122`, re:`Incrementa la eficiencia del sistema eléctrico`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo especifico II: Incorporar tecnologias digitales u otras que per…`, oeFull:`Objetivo especifico II: Incorporar tecnologias digitales u otras que permiten una mejora en la gestion de Alumbrado Publico`, rationale:`Incorpora tecnología eficiente en la gestión del Alumbrado Público (nueva capacidad de tecnología eficiente instalada), elevando la eficiencia del consumo eléctrico público (RE8).`},
+  {op:`DR-L1122`, re:`Incrementa la eficiencia del sistema eléctrico`, feas:`Low`, align:`Weak`, oeIdx:3, oeShort:`Objetivo especifico III: Fortalecer las capacidades del personal de las …`, oeFull:`Objetivo especifico III: Fortalecer las capacidades del personal de las instituciones estatales en gestion de tecnologia eficiente`, rationale:`La capacitación del personal en O&M de tecnologías eficientes sostiene la operación, pero su aporte al indicador de eficiencia del sistema eléctrico es indirecto.`},
+  {op:`DR-L1128`, re:`Incrementa la eficiencia del sistema eléctrico`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Disminución de pérdidas eléctricas técnicas`, oeFull:`Disminución de pérdidas eléctricas técnicas`, rationale:`Disminuye las pérdidas eléctricas técnicas; el indicador de pérdidas técnicas mide directamente la eficiencia del sistema eléctrico (RE8).`},
+  {op:`DR-L1128`, re:`Incrementa la eficiencia del sistema eléctrico`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Disponibilidad Promedio del Servicio (DPS)`, oeFull:`Disponibilidad Promedio del Servicio (DPS)`, rationale:`Mejora la Disponibilidad Promedio del Servicio; los indicadores SAIDI/SAIFI (tiempo y frecuencia de interrupción) reflejan la confiabilidad y eficiencia del sistema eléctrico (RE8).`},
+  {op:`DR-L1128`, re:`Incrementa la eficiencia del sistema eléctrico`, feas:`High`, align:`Strong`, oeIdx:3, oeShort:`Abastecimiento de la demanda`, oeFull:`Abastecimiento de la demanda`, rationale:`Aumenta la capacidad instalada para cubrir la demanda en zonas de distribución intervenidas, lo que mejora la eficiencia y suficiencia del servicio eléctrico (RE8).`},
+  {op:`DR-L1134`, re:`Incrementan los productores agropecuarios que usan tecnología`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Incrementar la adopción de tecnologías agroforestales`, oeFull:`Incrementar la adopción de tecnologías agroforestales`, rationale:`Incrementa la adopción de tecnologías agroforestales; los indicadores de sistemas agroforestales adoptados miden directamente el uso de tecnología por productores (RE11).`},
+  {op:`DR-L1134`, re:`Incrementan los productores agropecuarios que usan tecnología`, feas:`Low`, align:`Weak`, oeIdx:2, oeShort:`Incrementar la comercialización de productos agroforestales`, oeFull:`Incrementar la comercialización de productos agroforestales`, rationale:`La comercialización de productos agroforestales es posterior a la adopción tecnológica; el indicador del RE11 mide productores que usan tecnología, por lo que el aporte es indirecto.`},
+  {op:`DR-L1137`, re:`Incrementan los productores agropecuarios que usan tecnología`, feas:`Low`, align:`Weak`, oeIdx:1, oeShort:`Mejorar los servicios de sanidad e inocuidad agroalimentaria`, oeFull:`Mejorar los servicios de sanidad e inocuidad agroalimentaria`, rationale:`Los servicios de sanidad e inocuidad (prevalencia de enfermedades animales, residuos en alimentos) protegen la producción, pero no equivalen a la adopción de tecnología por productores que mide el RE11; aporte indirecto.`},
+  {op:`DR-L1137`, re:`Incrementan los productores agropecuarios que usan tecnología`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Mejorar la innovación y transferencia de tecnologías fito-zoosanitarias`, oeFull:`Mejorar la innovación y transferencia de tecnologías fito-zoosanitarias`, rationale:`La innovación y transferencia de tecnologías fito-zoosanitarias incrementa el uso de tecnología por parte de los productores (RE11).`},
+  {op:`DR-L1141`, re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo de desarrollo específico 1: Reducción de costos y tiempos de tr…`, oeFull:`Objetivo de desarrollo específico 1: Reducción de costos y tiempos de transporte de la carga con origen/destino en el norte del país.`, rationale:`Reduce costos y tiempos de transporte de carga en el norte; los indicadores de costo de operación vehicular y tiempo de viaje en RD-1/RD-20 reflejan la mejora de la red de transporte terrestre (RE6).`},
+  {op:`DR-L1141`, re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo de desarrollo específico 2: Incremento en el movimiento total d…`, oeFull:`Objetivo de desarrollo específico 2: Incremento en el movimiento total de carga (toneladas) y de contenedores (TEUs) por Manzanillo.`, rationale:`Incrementa el movimiento de carga (toneladas, TEUs) por Manzanillo, aumentando la capacidad logística portuaria (RE6).`},
+  {op:`DR-L1142`, re:`Aumenta la eficiencia y transparencia del gasto público`, feas:`Low`, align:`Weak`, oeIdx:1, oeShort:`Mejorar la eficiencia en la gestión de los recursos humanos`, oeFull:`Mejorar la eficiencia en la gestión de los recursos humanos`, rationale:`La eficiencia en la gestión de recursos humanos del servicio civil (ahorros por revisión de nómina y automatización) incide en el gasto público de personal, pero el indicador del RE16 mide la eficiencia y transparencia del gasto en sentido amplio; aporte parcial.`},
+  {op:`DR-L1147`, re:`Mejoran los servicios para la formación de habilidades e inserción laboral`, feas:`Low`, align:`Weak`, oeIdx:2, oeShort:`(II) aumento en las habilidades y competencias digitales, incluyendo un …`, oeFull:`(II) aumento en las habilidades y competencias digitales, incluyendo un enfoque de género`, rationale:`La formación en habilidades digitales (personas que culminan la certificación) puede apoyar la formación de habilidades del RE5, pero este se centra en servicios de inserción laboral, por lo que el vínculo es indirecto.`},
+  {op:`DR-L1150`, re:`Aumenta la eficiencia y transparencia del gasto público`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Consolidar la transparencia y trazabilidad en la gestión de recursos`, oeFull:`Consolidar la transparencia y trazabilidad en la gestión de recursos`, rationale:`Consolida la transparencia y trazabilidad en la gestión de recursos; los indicadores de ejecución en SIGEF y de contrataciones por métodos competitivos miden directamente la eficiencia y transparencia del gasto público (RE16).`},
+  {op:`DR-L1150`, re:`Aumenta la eficiencia y transparencia del gasto público`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Fortalecer la función de control interno`, oeFull:`Fortalecer la función de control interno`, rationale:`Fortalece el control interno; el indicador de recomendaciones de las Unidades de Auditoría Interna implementadas mejora el control del gasto público (RE16).`},
+  {op:`DR-L1150`, re:`Aumenta la eficiencia y transparencia del gasto público`, feas:`Low`, align:`Weak`, oeIdx:3, oeShort:`Fomentar el acceso a la información, participación ciudadana, y la integ…`, oeFull:`Fomentar el acceso a la información, participación ciudadana, y la integridad en la administración pública y en el sector privado`, rationale:`El acceso a la información, la participación ciudadana y la integridad acompañan la gestión del gasto, pero su aporte al indicador de eficiencia del gasto público es indirecto.`},
+  {op:`DR-L1151`, re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo de desarrollo específico 1: Reducción de los costos de operació…`, oeFull:`Objetivo de desarrollo específico 1: Reducción de los costos de operación vehicular en las vías intervenidas`, rationale:`Reduce el costo de operación vehicular en carreteras y caminos vecinales rehabilitados; el indicador correspondiente refleja la mejora de la red de transporte terrestre (RE6).`},
+  {op:`DR-L1151`, re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo de desarrollo específico 2: Reducción de los tiempos de viaje d…`, oeFull:`Objetivo de desarrollo específico 2: Reducción de los tiempos de viaje de los usuarios en las vías intervenidas`, rationale:`Reduce el tiempo de viaje en las vías intervenidas, contribuyendo a la red de transporte terrestre (RE6).`},
+  {op:`DR-L1151`, re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`, feas:`High`, align:`Strong`, oeIdx:3, oeShort:`Objetivo de desarrollo específico 3: Incrementar la resiliencia de la in…`, oeFull:`Objetivo de desarrollo específico 3: Incrementar la resiliencia de la infraestructura intervenida a los efectos del CC`, rationale:`Incrementa la resiliencia de la infraestructura vial intervenida al cambio climático, parte de la resiliencia de la red de transporte terrestre (RE6).`},
+  {op:`DR-L1152`, re:`Mejora en los programas de protección social`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico de desarrollo 1: Mejora de la capacidad de respuesta…`, oeFull:`Objetivo específico de desarrollo 1: Mejora de la capacidad de respuesta de la red de protección social`, rationale:`Mejora la capacidad de respuesta de la red de protección social; los indicadores de hogares registrados en SIUBEN+ y beneficiarios de Supérate reflejan la mejora de los programas de protección social (RE4).`},
+  {op:`DR-L1152`, re:`Mejora en los programas de protección social`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo específico de desarrollo 2: Apoyo a la conformación del nuevo c…`, oeFull:`Objetivo específico de desarrollo 2: Apoyo a la conformación del nuevo componente de cuidados de Supérate`, rationale:`Apoya la conformación del componente de cuidados de Supérate; la cobertura de servicios de cuidado amplía los programas de protección social (RE4).`},
+  {op:`DR-L1154`, re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Restaurar y preservar zonas costeras prioritarias de uso turístico`, oeFull:`Restaurar y preservar zonas costeras prioritarias de uso turístico`, rationale:`Restaura y preserva zonas costeras prioritarias de uso turístico; los indicadores de playas con intervenciones basadas en la naturaleza y obras de control de erosión estables miden la conservación de zonas costeras (RE12).`},
+  {op:`DR-L1154`, re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Fortalecer el marco legal e institucional y las capacidades para la gest…`, oeFull:`Fortalecer el marco legal e institucional y las capacidades para la gestión integrada de las zonas costeras`, rationale:`Fortalece el marco legal e institucional para la gestión integrada de zonas costeras; el subíndice de marco legal e institucional para la GIZC y preparación climática fortalece las capacidades institucionales para la resiliencia y planificación territorial (RE17).`},
+  {op:`DR-L1155`, re:`Mejoran los servicios para la formación de habilidades e inserción laboral`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Fortalecer habilidades para la empleabilidad de los buscadores de empleo…`, oeFull:`Fortalecer habilidades para la empleabilidad de los buscadores de empleo.`, rationale:`Fortalece habilidades para la empleabilidad; los indicadores de buscadores de empleo con certificación de cursos de capacitación miden la formación de habilidades (RE5).`},
+  {op:`DR-L1155`, re:`Mejoran los servicios para la formación de habilidades e inserción laboral`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Mejorar la cobertura con calidad de la oferta de servicios de Intermedia…`, oeFull:`Mejorar la cobertura con calidad de la oferta de servicios de Intermediación Laboral (IL).`, rationale:`Mejora la cobertura con calidad de los servicios de intermediación laboral, correspondiente directamente a los servicios de inserción laboral (RE5).`},
+  {op:`DR-L1156`, re:`Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico de desarrollo 1: Asegurar la disposición final adecu…`, oeFull:`Objetivo específico de desarrollo 1: Asegurar la disposición final adecuada de RSU localizados en las áreas objeto de la intervención`, rationale:`Asegura la disposición final adecuada de RSU; los indicadores de áreas de botaderos a cielo abierto clausuradas y residuos dispuestos en rellenos miden directamente la disminución de vertederos de cielo abierto en el Gran Santo Domingo (RE2).`},
+  {op:`DR-L1156`, re:`Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo específico de desarrollo 2: Incrementar la recuperación y valor…`, oeFull:`Objetivo específico de desarrollo 2: Incrementar la recuperación y valorización de RSU promoviendo la inclusión social de los recicladores informales, la igualdad de género e inclusión de la diversidad.`, rationale:`Incrementa la recuperación y valorización de RSU con inclusión de recicladores; las toneladas recuperadas en plantas de valorización reducen los residuos en vertederos (RE2).`},
+  {op:`DR-L1156`, re:`Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo`, feas:`Low`, align:`Weak`, oeIdx:3, oeShort:`Objetivo específico de desarrollo 3: Reducir la generación de emisiones …`, oeFull:`Objetivo específico de desarrollo 3: Reducir la generación de emisiones de GEI en la gestión de los RSU`, rationale:`La reducción de emisiones de GEI (CO2 evitado) es un co-beneficio climático; el indicador del RE2 mide áreas de vertederos, por lo que el aporte de la reducción de GEI es indirecto.`},
+  {op:`DR-L1157`, re:`Incrementa el crédito a segmentos desatendidos`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico: Incremento en la provisión de crédito para la inver…`, oeFull:`Objetivo específico: Incremento en la provisión de crédito para la inversión y adopción de tecnologías climáticas y tecnologías productivas complementarias de micro, pequeños y medianos productores agropecuarios.`, rationale:`Incrementa la provisión de crédito a MIPYMEs y productores (segmentos desatendidos) para inversión en tecnologías climáticas y productivas; los indicadores de cartera de inversiones productivas a MIPYME y de productores con crédito reflejan el aumento del crédito a segmentos desatendidos (RE13).`},
+  {op:`DR-L1157`, re:`Aumenta la movilización de financiamiento a la inversión privada y el crédito al comercio internacional`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico: Incremento en la provisión de crédito para la inver…`, oeFull:`Objetivo específico: Incremento en la provisión de crédito para la inversión y adopción de tecnologías climáticas y tecnologías productivas complementarias de micro, pequeños y medianos productores agropecuarios.`, rationale:`La cartera de financiamiento de inversión en tecnologías climáticas moviliza financiamiento hacia la inversión privada (RE14).`},
+  {op:`DR-L1158`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico de desarrollo 1: Incrementar la cobertura del saneam…`, oeFull:`Objetivo específico de desarrollo 1: Incrementar la cobertura del saneamiento gestionando de manera segura en las localidades intervenidas por el programa`, rationale:`Incrementa la cobertura de saneamiento gestionado de manera segura; el indicador de hogares con acceso a saneamiento seguro mide directamente la cobertura en ciudades costeras y turísticas (RE1).`},
+  {op:`DR-L1158`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo específico de desarrollo 2: Mejorar la gestión de los servicios…`, oeFull:`Objetivo específico de desarrollo 2: Mejorar la gestión de los servicios de agua potable en las localidades intervenidas por el programa y contribuir al fortalecimiento de los operadores de Agua y Saneamiento y del INAPA`, rationale:`Mejora la gestión de los servicios de agua potable (micromedición, clientes facturados), sosteniendo la cobertura y calidad del servicio (RE1).`},
+  {op:`DR-L1161`, re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Mejorar la gobernanza y gestión del recurso hídrico`, oeFull:`Mejorar la gobernanza y gestión del recurso hídrico`, rationale:`Mejora la gobernanza y gestión del recurso hídrico (juntas de regantes con tarifa adoptada, derechos de agua formalizados, Plan de Acción de cuenca aprobado), fortaleciendo las capacidades institucionales para la planificación territorial (RE17).`},
+  {op:`DR-L1161`, re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Incrementar la resiliencia a los riesgos por inundaciones en la cuenca b…`, oeFull:`Incrementar la resiliencia a los riesgos por inundaciones en la cuenca baja del río Yuna`, rationale:`Incrementa la resiliencia a inundaciones en la cuenca baja del Yuna; los indicadores de población expuesta con acceso al SAT y reducción de pérdidas económicas por inundaciones reflejan mayor resiliencia territorial (RE17).`},
+  {op:`DR-L1161`, re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`, feas:`Low`, align:`Weak`, oeIdx:3, oeShort:`Fomentar la adopción de soluciones basadas en la naturaleza (SBN)`, oeFull:`Fomentar la adopción de soluciones basadas en la naturaleza (SBN)`, rationale:`Las soluciones basadas en la naturaleza apoyan la resiliencia de la cuenca, pero su aporte al indicador institucional/territorial del RE17 es indirecto.`},
+  {op:`DR-L1161`, re:`Incrementan los productores agropecuarios que usan tecnología`, feas:`High`, align:`Strong`, oeIdx:4, oeShort:`Fomentar la adopción de tecnologías y practicas climáticamente inteligen…`, oeFull:`Fomentar la adopción de tecnologías y practicas climáticamente inteligentes por parte de productores.`, rationale:`Fomenta la adopción de tecnologías y prácticas climáticamente inteligentes por productores, correspondiente a productores agropecuarios que usan tecnología (RE11).`},
+  {op:`DR-L1165`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico de desarrollo 1: Incrementar la cobertura de saneami…`, oeFull:`Objetivo específico de desarrollo 1: Incrementar la cobertura de saneamiento gestionados de manera segura en las ciudades intervenidas por el programa`, rationale:`Incrementa la cobertura de saneamiento gestionado de manera segura en ciudades turísticas; el indicador de hogares con acceso a saneamiento seguro mide la cobertura del RE1.`},
+  {op:`DR-L1165`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`Low`, align:`Weak`, oeIdx:2, oeShort:`Objetivo específico de desarrollo 2: Mejorar la eficiencia y la gestión …`, oeFull:`Objetivo específico de desarrollo 2: Mejorar la eficiencia y la gestión del INAPA y COAAROM`, rationale:`La mejora de la eficiencia y gestión del INAPA y COAAROM (clientes facturados, micromedición) sostiene la sostenibilidad del servicio, pero su aporte directo al indicador de cobertura del RE1 es indirecto.`},
+  {op:`DR-L1166`, re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Mejorar la resiliencia climática de la infraestructura de puentes del pa…`, oeFull:`Mejorar la resiliencia climática de la infraestructura de puentes del país`, rationale:`Mejora la resiliencia climática de los puentes; el indicador de interrupciones anuales al tránsito en puentes intervenidos mide la resiliencia de la red de transporte terrestre (RE6).`},
+  {op:`DR-L1167`, re:`Aumenta la prevención y mejora la gestión de las enfermedades crónicas no transmisibles (ECNT)`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Objetivo específico de desarrollo 1: Contribuir a la reducción de la pre…`, oeFull:`Objetivo específico de desarrollo 1: Contribuir a la reducción de la prevalencia de FR de ECNT mediante la ampliación de la cobertura de las intervenciones para la promoción de hábitos saludables y prevención de comportamientos de riesgo.`, rationale:`Contribuye a reducir la prevalencia de factores de riesgo de ECNT ampliando la cobertura de intervenciones; los indicadores de consejería nutricional y estrategias de promoción y prevención miden la prevención de ECNT (RE3).`},
+  {op:`DR-L1167`, re:`Aumenta la prevención y mejora la gestión de las enfermedades crónicas no transmisibles (ECNT)`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Objetivo específico de desarrollo 2: Mejorar la Red de Atención para el …`, oeFull:`Objetivo específico de desarrollo 2: Mejorar la Red de Atención para el diagnóstico oportuno, tratamiento y gestión de las ECNT.`, rationale:`Mejora la Red de Atención para diagnóstico, tratamiento y gestión de ECNT; los indicadores de personas con diabetes/hipertensión diagnosticadas e incorporadas y pacientes con HTA controlada miden la gestión de las ECNT (RE3).`},
+  {op:`DR-L1168`, re:`Mejora la seguridad vial`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Mejorar la seguridad de la red vial principal del país`, oeFull:`Mejorar la seguridad de la red vial principal del país`, rationale:`Mejora la seguridad de la red vial principal; el indicador de kilómetros con clasificación iRAP ≥3 estrellas mide directamente la seguridad vial (RE7).`},
+  {op:`DR-L1168`, re:`Mejora la seguridad vial`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Mejorar la seguridad vial en entornos escolares`, oeFull:`Mejorar la seguridad vial en entornos escolares`, rationale:`Mejora la seguridad vial en entornos escolares, parte del resultado de seguridad vial (RE7).`},
+  {op:`DR-L1168`, re:`Mejora la seguridad vial`, feas:`High`, align:`Strong`, oeIdx:3, oeShort:`Fortalecer la gestión, fiscalización, educación y atención a víctimas en…`, oeFull:`Fortalecer la gestión, fiscalización, educación y atención a víctimas en factores relevantes para la seguridad vial`, rationale:`Fortalece la gestión, fiscalización, educación y atención a víctimas, componentes integrales de la seguridad vial (RE7).`},
+  {op:`DR-L1172`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`High`, align:`Strong`, oeIdx:1, oeShort:`Incrementar el acceso a agua potable segura de la población residente.`, oeFull:`Incrementar el acceso a agua potable segura de la población residente.`, rationale:`Incrementa el acceso a agua potable segura; el indicador de población con nuevo acceso a servicios de agua gestionados de forma segura mide la cobertura de agua potable (RE1).`},
+  {op:`DR-L1172`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`High`, align:`Strong`, oeIdx:2, oeShort:`Incrementar el acceso a saneamiento seguro de la población residente`, oeFull:`Incrementar el acceso a saneamiento seguro de la población residente`, rationale:`Incrementa el acceso a saneamiento seguro; el indicador de población con nuevo acceso a saneamiento gestionado de forma segura mide la cobertura de saneamiento (RE1).`},
+  {op:`DR-L1172`, re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`, feas:`Low`, align:`Weak`, oeIdx:3, oeShort:`Mejorar la gestión integrada y sostenible del recurso hídrico.`, oeFull:`Mejorar la gestión integrada y sostenible del recurso hídrico.`, rationale:`La gestión integrada y sostenible del acuífero (gobernanza multisectorial, agua tratada para reuso) sostiene el servicio, pero su aporte al indicador de cobertura del RE1 es indirecto.`}
+];
+
+const colorScale = d3.scaleLinear()
+  .domain([1.0, 1.5, 2.0, 2.4, 3.0])
+  .range(["#e89b6e","#eda874","#f2c14e","#b6c84a","#3fb96b"])
+  .interpolate(d3.interpolateRgb).clamp(true);
+function gradColor(a){if(a===null)return "#c8cfdc"; return colorScale(a);}
+function avgLabel(a){if(a===null)return "sin operación vinculada"; return "prom. "+a.toFixed(2);}
+
+const pilarOrder=["P1","P2","P3"];
+const ersOrdered=[];
+pilarOrder.forEach(p=>Object.keys(ER).forEach(er=>{if(ER[er].p===p&&!ersOrdered.includes(er))ersOrdered.push(er);}));
+const objsOrdered=[];
+pilarOrder.forEach(p=>ersOrdered.forEach(er=>{if(ER[er].p===p){const o=ER[er].obj;if(!objsOrdered.find(x=>x.name===o))objsOrdered.push({name:o,p:p});}}));
+const ops=[];
+pilarOrder.forEach(p=>ersOrdered.forEach(er=>{if(ER[er].p===p){EDGES.filter(e=>e.re===er).map(e=>e.op).forEach(op=>{if(!ops.includes(op))ops.push(op);});}}));
+
+function savg(rows){const u=[...new Set(rows)].filter(op=>V[PROB[op]]!==undefined); if(!u.length)return null;return u.reduce((a,b)=>a+V[PROB[b]],0)/u.length;}
+const erAvg={};ersOrdered.forEach(er=>{erAvg[er]=savg(EDGES.filter(e=>e.re===er).map(e=>e.op));});
+const objAvg={};objsOrdered.forEach(o=>{objAvg[o.name]=savg(EDGES.filter(e=>ER[e.re].obj===o.name).map(e=>e.op));});
+
+const reAlign={};
+ersOrdered.forEach(er=>{
+  const rows=EDGES.filter(e=>e.re===er);
+  if(!rows.length){reAlign[er]="sin cobertura";return;}
+  // Per RE: one alignment per unique operation (any Strong => count as Strong for that op)
+  const opAlignMap = {};
+  rows.forEach(e=>{
+    if(opAlignMap[e.op]==="Strong") return;
+    opAlignMap[e.op] = e.align;
+  });
+  const opList = Object.values(opAlignMap);
+  const strongPct = opList.filter(a=>a==="Strong").length / opList.length;
+  reAlign[er] = strongPct>=0.51 ? "Fuerte" : "Débil";
+});
+
+// Stats: total vínculos counts unique op-RE pairs (not OE-RE edges)
+const uniqueOpReEdges = [...new Set(EDGES.map(e=>e.op+"|"+e.re))];
+const uniqueOpReStrong = uniqueOpReEdges.filter(k=>EDGES.find(e=>(e.op+"|"+e.re)===k && e.align==="Strong"));
+const uniqueOpReWeak = uniqueOpReEdges.filter(k=>!EDGES.find(e=>(e.op+"|"+e.re)===k && e.align==="Strong"));
+const stats=[
+  [objsOrdered.length,"Objetivos Estratégicos de la EBP"],
+  [ersOrdered.length,"Resultados Esperados"],
+  [ops.length,"Operaciones"],
+  [uniqueOpReEdges.length,"Vínculos operación-RE"],
+  [uniqueOpReStrong.length,"Vínculos fuertes"],
+  [uniqueOpReWeak.length,"Vínculos débiles"]
+];
+const sd=d3.select("#stats");
+stats.forEach(s=>{const d=sd.append("div").attr("class","stat");d.append("div").attr("class","n").text(s[0]);d.append("div").attr("class","l").text(s[1]);});
+
+// ---------- INSIGHT PANEL ----------
+// 1) % of Expected Results (RE) covered by SG portfolio
+const reCovered = ersOrdered.filter(er => reAlign[er] !== "sin cobertura").length;
+const reTotal = ersOrdered.length;
+const pctCovered = Math.round(100*reCovered/reTotal);
+// (also keep OE coverage for the strong-alignment card)
+const oeCovered = objsOrdered.filter(o => objAvg[o.name] !== null).length;
+const oeTotal = objsOrdered.length;
+
+// 2) % of covered REs with strong alignment (RE-level rule).
+const reStrong = ersOrdered.filter(er => reAlign[er] === "Fuerte").length;
+const pctStrong = reCovered ? Math.round(100*reStrong/reCovered) : 0;
+
+// 3) Aggregate probability — simple average across covered OEs
+const covAvgs = objsOrdered.filter(o=>objAvg[o.name]!==null).map(o=>objAvg[o.name]);
+const aggProb = covAvgs.length ? covAvgs.reduce((a,b)=>a+b,0)/covAvgs.length : null;
+function probBand(v){if(v===null)return ["red","Sin datos"]; if(v>=2.4) return ["green","Alta"]; if(v>1.5) return ["amber","Media"]; return ["red","Baja"];}
+const [aggClass, aggLabel] = probBand(aggProb);
+
+const coverageClass = pctCovered>=80 ? "green" : (pctCovered>=60 ? "amber" : "red");
+const strongClass   = pctStrong>=80 ? "green" : (pctStrong>=60 ? "amber" : "red");
+
+const cards = [
+  {cls:coverageClass, lbl:"Cobertura de la cartera", val:pctCovered+"<span class='small'>%</span>", desc:`${reCovered} de ${reTotal} resultados esperados de la EBP cubiertos por operaciones con garantía soberana.`},
+  {cls:strongClass, lbl:"Alineación fuerte", val:pctStrong+"<span class='small'>%</span>", desc:`${reStrong} de ${reCovered} resultados esperados con cobertura califican como alineación fuerte.`},
+  {cls:aggClass, lbl:"Probabilidad agregada de lograr resultados", val:(aggProb!==null?aggProb.toFixed(2):"—")+`<span class='small'> / 3 · ${aggLabel}</span>`, desc:`Promedio simple de probabilidad de logro de los objetivos cubiertos según la última revisión de cartera.`}
+];
+const ip = d3.select("#insight");
+cards.forEach(c=>{
+  const d = ip.append("div").attr("class","card "+c.cls);
+  d.append("div").attr("class","bar");
+  d.append("div").attr("class","lbl").text(c.lbl);
+  d.append("div").attr("class","val").html(c.val);
+  d.append("div").attr("class","desc").text(c.desc);
+});
+
+// Callout: highlight the two specific risk areas
+const oeAmber = objsOrdered.filter(o=>objAvg[o.name]!==null && objAvg[o.name]<2.4).map(o=>o.name);
+const oeUncovered = objsOrdered.filter(o=>objAvg[o.name]===null).map(o=>o.name);
+// Helper: join an array in natural Spanish ("A y B" / "A, B y C")
+function listJoin(arr){
+  if(!arr.length) return "";
+  if(arr.length===1) return arr[0];
+  if(arr.length===2) return arr[0]+" y "+arr[1];
+  return arr.slice(0,-1).join(", ")+" y "+arr[arr.length-1];
+}
+
+const calloutEl = d3.select("#callout");
+calloutEl.append("span").attr("class","title").text("Puntos de atención");
+const list = calloutEl.append("ul").attr("class","callout-list");
+if(oeUncovered.length){
+  list.append("li").html(`<b>${oeUncovered.length} objetivo${oeUncovered.length>1?"s":""} sin cartera con garantía soberana</b>: ${listJoin(oeUncovered)}.`);
+}
+if(oeAmber.length){
+  list.append("li").html(`<b>${oeAmber.length} objetivo${oeAmber.length>1?"s":""} en rango de probabilidad media</b> que conviene monitorear intensivamente: ${listJoin(oeAmber)}.`);
+}
+
+const rowH=48, gapPilar=90, padTop=110, padBot=46, pilarLabelH=36;
+const pilarRows={};
+pilarOrder.forEach(p=>{
+  const nObj=objsOrdered.filter(o=>o.p===p).length;
+  const nER=ersOrdered.filter(er=>ER[er].p===p).length;
+  pilarRows[p]=Math.max(nObj,nER);
+});
+// Total vertical extent of all pilar bands stacked (including gaps between them)
+let pilarStackHeight = 0;
+pilarOrder.forEach((p,i)=>{
+  pilarStackHeight += pilarLabelH + pilarRows[p]*rowH + (i<pilarOrder.length-1?gapPilar:0);
+});
+
+// Estimate height needed by op panels (matches new compact formula)
+const _estOpH = ops.map(op => {
+  const n = Math.max(1, [...new Set(EDGES.filter(e=>e.op===op).map(e=>e.oeIdx))].length);
+  return 30 + (n-1)*20;
+}).reduce((a,b)=>a+b, 0) + 14*(ops.length-1);
+const heightFromOps = padTop + _estOpH + padBot + 20;
+const heightFromBands = padTop + pilarStackHeight + padBot;
+const height = Math.max(heightFromBands, heightFromOps);
+
+// If the bands are shorter than the ops, center them vertically
+const usableTop = padTop;
+const usableBot = height - padBot;
+const bandsBlockTop = usableTop + ((usableBot - usableTop) - pilarStackHeight)/2;
+
+const pilarTop={};
+let cursor = bandsBlockTop;
+pilarOrder.forEach((p,i)=>{
+  pilarTop[p]=cursor + pilarLabelH;
+  cursor += pilarLabelH + pilarRows[p]*rowH + (i<pilarOrder.length-1?gapPilar:0);
+});
+
+const width = 1540;
+// Reversed order: Operaciones (left), REs EBP, Objetivos EBP (right)
+const colOps=220, colER=730, colObj=1240;
+const wObj=340, wER=420, wOps=160;
+const svg=d3.select("#chart").attr("viewBox",`0 0 ${width} ${height}`).attr("height",height);
+
+function yInBand(p, items, name){
+  const band = pilarRows[p]*rowH;
+  const total = items.length*rowH;
+  const start = pilarTop[p] + (band-total)/2;
+  const idx = items.indexOf(name);
+  return start + idx*rowH + rowH/2;
+}
+const yObj={}, yER={};
+pilarOrder.forEach(p=>{
+  const objsP = objsOrdered.filter(o=>o.p===p).map(o=>o.name);
+  const ersP = ersOrdered.filter(er=>ER[er].p===p);
+  objsP.forEach(o => { yObj[o] = yInBand(p, objsP, o); });
+  ersP.forEach(er => { yER[er] = yInBand(p, ersP, er); });
+});
+
+// Pre-compute number of unique REs per operation (one circle per RE)
+const opRes = {};  // op -> [oeIdx ordered] (one entry per unique RE of the op)
+ops.forEach(op => {
+  const idxs = [...new Set(EDGES.filter(e=>e.op===op).map(e=>e.oeIdx))].sort((a,b)=>a-b);
+  opRes[op] = idxs;
+});
+
+// Compact panel sizing: base 30px for 1 RE, +20px per additional RE
+const opPanelH = {};
+ops.forEach(op => {
+  const n = Math.max(1, opRes[op].length);
+  opPanelH[op] = 30 + (n-1)*20;  // 1 RE = 30, 2 REs = 50, 3 REs = 70
+});
+
+// Stack ops vertically with the new dynamic heights
+const opGap = 14;
+const totalOpsH = ops.reduce((sum, op) => sum + opPanelH[op], 0) + opGap*(ops.length-1);
+const opsStart = padTop + (height - padTop - padBot - totalOpsH)/2;
+const yOps = {};  // y of the CENTER of each op's panel
+{
+  let cursor = opsStart;
+  ops.forEach(op => {
+    yOps[op] = cursor + opPanelH[op]/2;
+    cursor += opPanelH[op] + opGap;
+  });
+}
+
+// Position of each circle: to the right of the panel, vertically distributed within the panel height
+const yCircle = {};  // (op, oeIdx) -> y
+ops.forEach(op => {
+  const n = opRes[op].length;
+  const panelTop = yOps[op] - opPanelH[op]/2;
+  const panelBot = yOps[op] + opPanelH[op]/2;
+  // Distribute n dots evenly within panel vertical extent, with margins
+  if(n === 1){
+    // Single dot centered with panel
+    yCircle[op + "||" + opRes[op][0]] = yOps[op];
+  } else {
+    // Multiple dots: distribute from top to bottom of panel with small margins
+    const topMargin = 8;
+    const usable = opPanelH[op] - 2*topMargin;
+    const step = usable / (n - 1);
+    opRes[op].forEach((oeIdx, i) => {
+      yCircle[op + "||" + oeIdx] = panelTop + topMargin + i*step;
+    });
+  }
+});
+
+const zoneLeft=colER-wER/2-18, zoneRight=colObj+wObj/2+18;
+pilarOrder.forEach((p,i)=>{
+  const top=pilarTop[p]-pilarLabelH-6, bot=pilarTop[p]+pilarRows[p]*rowH+10;
+  // white fill, no border; pilar label INSIDE the box, in blue
+  svg.append("rect").attr("class","pilar-zone").attr("x",zoneLeft).attr("y",top).attr("width",zoneRight-zoneLeft).attr("height",bot-top).attr("rx",14).attr("fill","#ffffff");
+  svg.append("text").attr("class","pilar-label").attr("x",zoneLeft+20).attr("y",pilarTop[p]-pilarLabelH+18).attr("fill","#1f4f8a").text("Pilar "+(i+1)+": "+PILARES[p].name.toUpperCase());
+});
+
+svg.append("text").attr("class","colhead").attr("x",colObj).attr("y",70).attr("text-anchor","middle").text("Objetivos Estratégicos");
+svg.append("text").attr("class","colhead").attr("x",colER).attr("y",70).attr("text-anchor","middle").text("Resultados Esperados EBP");
+svg.append("text").attr("class","colhead").attr("x",colOps).attr("y",70).attr("text-anchor","middle").text("Operaciones");
+
+const tip=d3.select("#tip");
+function showTip(html,ev){tip.html(html).style("opacity",1).style("left",(ev.clientX+14)+"px").style("top",(ev.clientY+14)+"px");}
+function hideTip(){tip.style("opacity",0);}
+function curve(x1,y1,x2,y2){const mx=(x1+x2)/2;return `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`;}
+
+const linkLayer=svg.append("g");const allLinks=[];
+
+ersOrdered.forEach(er=>{
+  const obj=ER[er].obj;
+  const x1=colER+wER/2,y1=yER[er];const x2=colObj-wObj/2,y2=yObj[obj];
+  const isFuerte = reAlign[er]==="Fuerte";
+  const isSinCob = reAlign[er]==="sin cobertura";
+  // Color by the RE's average probability (same gradient as the RE node fill)
+  const lineColor = isSinCob ? "#9aa5bb" : gradColor(erAvg[er]);
+  const path=linkLayer.append("path").attr("class","link").attr("d",curve(x1,y1,x2,y2))
+    .attr("stroke", lineColor)
+    .attr("stroke-width", isFuerte?3.4:1.4)
+    .attr("stroke-dasharray", isFuerte?null:(isSinCob?"2,5":"4,4"))
+    .attr("opacity", isFuerte?0.85:(isSinCob?0.55:0.7))
+    .attr("data-er",er).attr("data-obj",obj);
+  path.on("mouseover",ev=>showTip(`<b>RE → OE</b><br>${er}<br>→ <i>${obj}</i><br><span style='color:#c8cfdc'>Alineación del RE: <b>${reAlign[er]==="sin cobertura"?"Sin cobertura":reAlign[er]}</b></span>`,ev))
+      .on("mousemove",ev=>showTip(tip.html(),ev)).on("mouseout",hideTip);
+  allLinks.push(path);
+});
+
+// Pre-compute multiplicity per (op, RE) pair so we can offset overlapping lines
+const opReGroups = {};
+EDGES.forEach(e=>{
+  const key = e.op + "||" + e.re;
+  if(!opReGroups[key]) opReGroups[key] = [];
+  opReGroups[key].push(e);
+});
+
+// Build consecutive RE numbering per operation (skip OEs without RE connection in numbering)
+const reNumByOp = {};  // op -> {oeIdx: consecutiveNumber}
+{
+  const opOeMap = {};
+  EDGES.forEach(e => {
+    if(!opOeMap[e.op]) opOeMap[e.op] = new Set();
+    opOeMap[e.op].add(e.oeIdx);
+  });
+  Object.keys(opOeMap).forEach(op => {
+    const sortedOes = [...opOeMap[op]].sort((a,b)=>a-b);
+    reNumByOp[op] = {};
+    sortedOes.forEach((oeIdx, i) => { reNumByOp[op][oeIdx] = i+1; });
+  });
+}
+
+EDGES.forEach(e=>{
+  const op=e.op, er=e.re, align=e.align;
+  const col=PROBCOLOR[PROB[op]];
+  // Compute offset: if multiple OEs connect this op to this RE, spread them vertically
+  const key = op + "||" + er;
+  const group = opReGroups[key];
+  const groupSize = group.length;
+  const myIndex = group.indexOf(e);
+  const spread = 12;
+  const offset = groupSize === 1 ? 0 : (myIndex - (groupSize-1)/2) * spread;
+
+  // Line starts at the dot (right side of op panel) and ends at left side of RE node
+  const dotX = colOps + wOps/2 + 18;  // dot is to the right of op panel
+  const dotY = yCircle[op + "||" + e.oeIdx];
+  const x1 = dotX + 11;  // start at right edge of dot (radius 11)
+  const y1 = dotY;
+  const x2 = colER - wER/2;
+  const y2 = yER[er] + offset;
+  const path=linkLayer.append("path").attr("class","link").attr("d",curve(x1,y1,x2,y2))
+    .attr("stroke",col)
+    .attr("stroke-width",align==="Strong"?3.4:1.5)
+    .attr("stroke-dasharray",align==="Strong"?null:"4,4")
+    .attr("opacity",align==="Strong"?0.85:0.6)
+    .attr("data-op",op).attr("data-er",er).attr("data-obj",ER[er].obj);
+
+  const reNum = reNumByOp[op][e.oeIdx];
+  const tipHtml = `
+    <div style="font-weight:700;color:#fff;font-size:13px;margin-bottom:4px">${op} · RE${reNum} de la operación → RE de la EBP</div>
+    <div style="color:#c8cfdc;font-size:11px;margin-bottom:6px">Probabilidad de la operación: <b style="color:#fff">${PROB[op]||"—"}</b> · Alineación: <b style="color:#fff">${align==="Strong"?"Fuerte":"Débil"}</b></div>
+    <div style="border-left:3px solid #5e84c4;padding-left:8px;margin:6px 0">
+      <div style="color:#5e84c4;font-size:10px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Resultado Esperado de la operación (RE${reNum})</div>
+      <div style="color:#fff;font-size:11px;line-height:1.4">${e.oeFull}</div>
+    </div>
+    <div style="border-left:3px solid #3fb96b;padding-left:8px;margin:6px 0">
+      <div style="color:#3fb96b;font-size:10px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px">Resultado Esperado de la EBP</div>
+      <div style="color:#fff;font-size:11px;line-height:1.4">${er}</div>
+    </div>
+    <div style="color:#c8cfdc;font-size:10px;line-height:1.4;margin-top:6px;font-style:italic">${e.rationale}</div>
+  `;
+  path.on("mouseover",ev=>showTip(tipHtml,ev))
+      .on("mousemove",ev=>showTip(tip.html(),ev))
+      .on("mouseout",hideTip);
+  allLinks.push(path);
+
+  // The dot lives at the start of the line, next to the op panel.
+  // Each (op, oeIdx) only needs ONE dot even if it connects to multiple REs.
+  // Mark dots as already drawn so we don't duplicate them.
+  if(!window._dotsDrawn) window._dotsDrawn = new Set();
+  const dotKey = op + "||" + e.oeIdx;
+  if(!window._dotsDrawn.has(dotKey)) {
+    window._dotsDrawn.add(dotKey);
+    const labelText = "RE" + reNum;
+    const dotGroup = svg.append("g").attr("class","oe-dot").style("cursor","pointer");
+    dotGroup.append("circle")
+      .attr("cx", dotX).attr("cy", dotY).attr("r", 11)
+      .attr("fill", "#ffffff").attr("stroke", col).attr("stroke-width", 2);
+    dotGroup.append("text")
+      .attr("x", dotX).attr("y", dotY+3)
+      .attr("text-anchor","middle")
+      .attr("font-size","9.5px").attr("font-weight","700")
+      .attr("fill", "#1a2238")
+      .text(labelText);
+    dotGroup.on("mouseover",ev=>showTip(tipHtml,ev))
+      .on("mousemove",ev=>showTip(tip.html(),ev))
+      .on("mouseout",hideTip);
+  }
+});
+
+function drawNode(x,y,w,label,fill,meta){
+  const g=svg.append("g");
+  // Try fitting on one line at font size 12; if too wide, wrap to two lines.
+  const measureSvg = svg;
+  const tmp = measureSvg.append("text").attr("class","node-label").attr("font-size","12px").style("visibility","hidden").text(label);
+  const oneLineWidth = tmp.node().getComputedTextLength();
+  tmp.remove();
+
+  const padding = 16;
+  const useTwoLines = oneLineWidth > (w - padding);
+  let lines = [label];
+  let fontSize = 12;
+
+  if(useTwoLines){
+    // Split label into two roughly balanced lines on word boundary.
+    const words = label.split(" ");
+    if(words.length >= 2){
+      // Try every split point and pick the one that minimizes the max line width.
+      let best = null;
+      for(let i=1; i<words.length; i++){
+        const l1 = words.slice(0,i).join(" ");
+        const l2 = words.slice(i).join(" ");
+        const t1 = measureSvg.append("text").attr("class","node-label").attr("font-size","12px").style("visibility","hidden").text(l1);
+        const t2 = measureSvg.append("text").attr("class","node-label").attr("font-size","12px").style("visibility","hidden").text(l2);
+        const m = Math.max(t1.node().getComputedTextLength(), t2.node().getComputedTextLength());
+        t1.remove(); t2.remove();
+        if(best===null || m < best.m){ best = {l1, l2, m}; }
+      }
+      lines = [best.l1, best.l2];
+      // If even the best two-line split is too wide, shrink font down to 10.
+      if(best.m > w - padding){
+        while(best.m > w - padding && fontSize > 10){
+          fontSize -= 0.5;
+          const t1 = measureSvg.append("text").attr("class","node-label").attr("font-size",fontSize+"px").style("visibility","hidden").text(best.l1);
+          const t2 = measureSvg.append("text").attr("class","node-label").attr("font-size",fontSize+"px").style("visibility","hidden").text(best.l2);
+          best.m = Math.max(t1.node().getComputedTextLength(), t2.node().getComputedTextLength());
+          t1.remove(); t2.remove();
+        }
+      }
+    }
+  }
+
+  // Box height grows when we have two lines.
+  const lineHeight = fontSize + 3;
+  const h = (lines.length===1) ? 26 : (lineHeight*lines.length + 12);
+
+  g.append("rect").attr("class","node-rect").attr("x",x-w/2).attr("y",y-h/2).attr("width",w).attr("height",h).attr("rx",6).attr("fill",fill).attr("opacity",0.95).attr("stroke","#ffffff").attr("stroke-width",0.5);
+
+  const c=d3.color(fill); const lum=c?(0.299*c.r+0.587*c.g+0.114*c.b):255;
+  const textFill = (lum>140) ? "#1a2238" : "#ffffff";
+
+  const textEl = g.append("text").attr("class","node-label").attr("x",x).attr("text-anchor","middle").attr("fill",textFill).attr("font-size",fontSize+"px");
+  if(lines.length===1){
+    textEl.attr("y", y+4).text(lines[0]);
+  } else {
+    // vertical centering: first tspan above center, second below
+    const topY = y - (lineHeight*(lines.length-1))/2 + 4;
+    lines.forEach((ln,i)=>{
+      textEl.append("tspan").attr("x",x).attr("y", topY + i*lineHeight).text(ln);
+    });
+  }
+
+  g.style("cursor","pointer")
+    .on("mouseover",ev=>{highlight(meta);if(meta.full)showTip(meta.full,ev);})
+    .on("mousemove",ev=>{if(meta.full)showTip(tip.html(),ev);})
+    .on("mouseout",()=>{unhighlight();hideTip();});
+  return g;
+}
+
+objsOrdered.forEach(o=>{
+  const c=gradColor(objAvg[o.name]);
+  drawNode(colObj,yObj[o.name],wObj,o.name,c,{type:"obj",obj:o.name,full:`<b>Objetivo estratégico</b><br>${o.name}<br><span style='color:#c8cfdc'>Área prioritaria: ${PILARES[o.p].name}</span><br>Probabilidad: <b>${avgLabel(objAvg[o.name])}</b>`});
+});
+ersOrdered.forEach(er=>{
+  const c=gradColor(erAvg[er]);
+  const alignLabel = reAlign[er]==="sin cobertura" ? "Sin cobertura" : reAlign[er];
+  drawNode(colER,yER[er],wER,er,c,{type:"er",er:er,full:`<b>Resultado esperado</b><br>${er}<br>Probabilidad: <b>${avgLabel(erAvg[er])}</b><br>Alineación: <b>${alignLabel}</b>`});
+});
+ops.forEach(op=>{
+  const col=PROBCOLOR[PROB[op]];
+  const panelH = opPanelH[op];
+  const panelY = yOps[op] - panelH/2;
+  const panelX = colOps - wOps/2;
+
+  const g = svg.append("g").style("cursor","pointer");
+  // Background panel (solid color of the op probability)
+  g.append("rect")
+    .attr("x", panelX).attr("y", panelY)
+    .attr("width", wOps).attr("height", panelH)
+    .attr("rx", 6).attr("fill", col).attr("opacity", 0.95)
+    .attr("stroke", "#ffffff").attr("stroke-width", 0.5);
+  // Op code, centered both horizontally and vertically in the panel
+  const c = d3.color(col); const lum = c ? (0.299*c.r + 0.587*c.g + 0.114*c.b) : 255;
+  const textFill = (lum>140) ? "#1a2238" : "#ffffff";
+  g.append("text")
+    .attr("x", colOps).attr("y", yOps[op] + 4)
+    .attr("text-anchor","middle")
+    .attr("font-family", "var(--font)")
+    .attr("font-size", "12px").attr("font-weight", "600")
+    .attr("fill", textFill)
+    .text(op);
+  // Tooltip on the panel
+  const tipHtml = `<b>${op}</b><br>Probabilidad de logro: <b>${PROB[op]}</b><br><span style='color:#c8cfdc'>Resultados Esperados de la operación con conexión a la EBP: ${opRes[op].length}</span>`;
+  g.on("mouseover", ev => showTip(tipHtml, ev))
+   .on("mousemove", ev => showTip(tip.html(), ev))
+   .on("mouseout", hideTip);
+});
+
+function highlight(meta){allLinks.forEach(l=>{const op=l.attr("data-op"),er=l.attr("data-er"),obj=l.attr("data-obj");let keep=false;
+  if(meta.type==="op"){const reachedER=EDGES.filter(e=>e.op===meta.op).map(e=>e.re);keep=(op===meta.op)||(!op&&reachedER.includes(er));}
+  if(meta.type==="er")keep=(er===meta.er);
+  if(meta.type==="obj"){const ersForObj=ersOrdered.filter(x=>ER[x].obj===meta.obj);keep=(obj===meta.obj)||(ersForObj.includes(er));}
+  if(!keep)l.classed("dim",true);});}
+function unhighlight(){allLinks.forEach(l=>l.classed("dim",false));}
+
+const OE_TABLE = [
+{op:`DR-L1084`,idx:1,oe:`Recuperar los espacios públicos y monumentos históricos de la CCSD`,re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`,align:`Strong`,feas:`High`,rationale:`Recupera espacios públicos y monumentos históricos de la Ciudad Colonial; los indicadores de visitantes a museos intervenidos y visitantes extranjeros a la CCSD reflejan la rehabilitación de espacios públicos e históricos del RE12.`},
+{op:`DR-L1084`,idx:2,oe:`Mejorar las condiciones de habitabilidad para los residentes de la CCSD`,re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`,align:`Weak`,feas:`Low`,rationale:`Mejora la habitabilidad de los residentes (viviendas inadecuadas, tenencia resoluble); acompaña la revitalización pero el indicador del RE12 mide la rehabilitación de espacios públicos/históricos, no vivienda, por lo que el aporte es indirecto.`},
+{op:`DR-L1084`,idx:3,oe:`Desarrollo de las economías locales`,re:`(sin conexión lógica)`,align:`(sin conexión)`,feas:`—`,rationale:`El desarrollo de economías locales (capacitación, emprendimiento) no corresponde a ningún resultado esperado de la EBP.`},
+{op:`DR-L1084`,idx:4,oe:`Fortalecimiento de la gestión de Ciudad Colonial`,re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`,align:`Weak`,feas:`Low`,rationale:`El fortalecimiento de la gestión de la Ciudad Colonial sostiene la conservación de los espacios rehabilitados, pero su aporte al indicador del RE12 es indirecto.`},
+{op:`DR-L1122`,idx:1,oe:`Objetivo especifico I: Reducir el consumo de combustibles fosiles importados para la generacion y consecuentemente el gasto publico`,re:`Incrementa la eficiencia del sistema eléctrico`,align:`Strong`,feas:`High`,rationale:`Reduce el consumo de combustibles fósiles para generación y el gasto público asociado; los indicadores de ahorro de energía por eficiencia energética en alumbrado público miden directamente la eficiencia del sistema eléctrico (RE8).`},
+{op:`DR-L1122`,idx:2,oe:`Objetivo especifico II: Incorporar tecnologias digitales u otras que permiten una mejora en la gestion de Alumbrado Publico`,re:`Incrementa la eficiencia del sistema eléctrico`,align:`Strong`,feas:`High`,rationale:`Incorpora tecnología eficiente en la gestión del Alumbrado Público (nueva capacidad de tecnología eficiente instalada), elevando la eficiencia del consumo eléctrico público (RE8).`},
+{op:`DR-L1122`,idx:3,oe:`Objetivo especifico III: Fortalecer las capacidades del personal de las instituciones estatales en gestion de tecnologia eficiente`,re:`Incrementa la eficiencia del sistema eléctrico`,align:`Weak`,feas:`Low`,rationale:`La capacitación del personal en O&M de tecnologías eficientes sostiene la operación, pero su aporte al indicador de eficiencia del sistema eléctrico es indirecto.`},
+{op:`DR-L1128`,idx:1,oe:`Disminución de pérdidas eléctricas técnicas`,re:`Incrementa la eficiencia del sistema eléctrico`,align:`Strong`,feas:`High`,rationale:`Disminuye las pérdidas eléctricas técnicas; el indicador de pérdidas técnicas mide directamente la eficiencia del sistema eléctrico (RE8).`},
+{op:`DR-L1128`,idx:2,oe:`Disponibilidad Promedio del Servicio (DPS)`,re:`Incrementa la eficiencia del sistema eléctrico`,align:`Strong`,feas:`High`,rationale:`Mejora la Disponibilidad Promedio del Servicio; los indicadores SAIDI/SAIFI (tiempo y frecuencia de interrupción) reflejan la confiabilidad y eficiencia del sistema eléctrico (RE8).`},
+{op:`DR-L1128`,idx:3,oe:`Abastecimiento de la demanda`,re:`Incrementa la eficiencia del sistema eléctrico`,align:`Strong`,feas:`High`,rationale:`Aumenta la capacidad instalada para cubrir la demanda en zonas de distribución intervenidas, lo que mejora la eficiencia y suficiencia del servicio eléctrico (RE8).`},
+{op:`DR-L1128`,idx:4,oe:`Mejora del empoderamiento económico en mujeres a través de iniciativas de actividades productivas`,re:`(sin conexión lógica)`,align:`(sin conexión)`,feas:`—`,rationale:`El componente de empoderamiento económico de mujeres no corresponde a ningún resultado esperado de la EBP.`},
+{op:`DR-L1134`,idx:1,oe:`Incrementar la adopción de tecnologías agroforestales`,re:`Incrementan los productores agropecuarios que usan tecnología`,align:`Strong`,feas:`High`,rationale:`Incrementa la adopción de tecnologías agroforestales; los indicadores de sistemas agroforestales adoptados miden directamente el uso de tecnología por productores (RE11).`},
+{op:`DR-L1134`,idx:2,oe:`Incrementar la comercialización de productos agroforestales`,re:`Incrementan los productores agropecuarios que usan tecnología`,align:`Weak`,feas:`Low`,rationale:`La comercialización de productos agroforestales es posterior a la adopción tecnológica; el indicador del RE11 mide productores que usan tecnología, por lo que el aporte es indirecto.`},
+{op:`DR-L1137`,idx:1,oe:`Mejorar los servicios de sanidad e inocuidad agroalimentaria`,re:`Incrementan los productores agropecuarios que usan tecnología`,align:`Weak`,feas:`Low`,rationale:`Los servicios de sanidad e inocuidad (prevalencia de enfermedades animales, residuos en alimentos) protegen la producción, pero no equivalen a la adopción de tecnología por productores que mide el RE11; aporte indirecto.`},
+{op:`DR-L1137`,idx:2,oe:`Mejorar la innovación y transferencia de tecnologías fito-zoosanitarias`,re:`Incrementan los productores agropecuarios que usan tecnología`,align:`Strong`,feas:`High`,rationale:`La innovación y transferencia de tecnologías fito-zoosanitarias incrementa el uso de tecnología por parte de los productores (RE11).`},
+{op:`DR-L1137`,idx:3,oe:`Mejorar el sistema de estadisticas agropecuarias`,re:`(sin conexión lógica)`,align:`(sin conexión)`,feas:`—`,rationale:`El fortalecimiento del sistema de estadísticas agropecuarias no corresponde a ningún resultado esperado de la EBP.`},
+{op:`DR-L1141`,idx:1,oe:`Objetivo de desarrollo específico 1: Reducción de costos y tiempos de transporte de la carga con origen/destino en el norte del país.`,re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`,align:`Strong`,feas:`High`,rationale:`Reduce costos y tiempos de transporte de carga en el norte; los indicadores de costo de operación vehicular y tiempo de viaje en RD-1/RD-20 reflejan la mejora de la red de transporte terrestre (RE6).`},
+{op:`DR-L1141`,idx:2,oe:`Objetivo de desarrollo específico 2: Incremento en el movimiento total de carga (toneladas) y de contenedores (TEUs) por Manzanillo.`,re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`,align:`Strong`,feas:`High`,rationale:`Incrementa el movimiento de carga (toneladas, TEUs) por Manzanillo, aumentando la capacidad logística portuaria (RE6).`},
+{op:`DR-L1142`,idx:1,oe:`Mejorar la eficiencia en la gestión de los recursos humanos`,re:`Aumenta la eficiencia y transparencia del gasto público`,align:`Weak`,feas:`Low`,rationale:`La eficiencia en la gestión de recursos humanos del servicio civil (ahorros por revisión de nómina y automatización) incide en el gasto público de personal, pero el indicador del RE16 mide la eficiencia y transparencia del gasto en sentido amplio; aporte parcial.`},
+{op:`DR-L1142`,idx:2,oe:`Mejorar las capacidades de los servidores públicos para adaptarse a la transformación digital`,re:`(sin conexión lógica)`,align:`(sin conexión)`,feas:`—`,rationale:`La capacitación de servidores públicos para la transformación digital no corresponde a ningún resultado esperado de la EBP.`},
+{op:`DR-L1147`,idx:1,oe:`(i) mejora de la conectividad nacional a través de la inversión en infraestructura digital y la mejora del servicio de radiodifusión`,re:`(sin conexión lógica)`,align:`(sin conexión)`,feas:`—`,rationale:`La EBP no contempla un resultado esperado de conectividad/infraestructura digital; el componente de banda ancha (velocidad, municipios con cobertura) no se vincula a ningún RE.`},
+{op:`DR-L1147`,idx:2,oe:`(II) aumento en las habilidades y competencias digitales, incluyendo un enfoque de género`,re:`Mejoran los servicios para la formación de habilidades e inserción laboral`,align:`Weak`,feas:`Low`,rationale:`La formación en habilidades digitales (personas que culminan la certificación) puede apoyar la formación de habilidades del RE5, pero este se centra en servicios de inserción laboral, por lo que el vínculo es indirecto.`},
+{op:`DR-L1150`,idx:1,oe:`Consolidar la transparencia y trazabilidad en la gestión de recursos`,re:`Aumenta la eficiencia y transparencia del gasto público`,align:`Strong`,feas:`High`,rationale:`Consolida la transparencia y trazabilidad en la gestión de recursos; los indicadores de ejecución en SIGEF y de contrataciones por métodos competitivos miden directamente la eficiencia y transparencia del gasto público (RE16).`},
+{op:`DR-L1150`,idx:2,oe:`Fortalecer la función de control interno`,re:`Aumenta la eficiencia y transparencia del gasto público`,align:`Strong`,feas:`High`,rationale:`Fortalece el control interno; el indicador de recomendaciones de las Unidades de Auditoría Interna implementadas mejora el control del gasto público (RE16).`},
+{op:`DR-L1150`,idx:3,oe:`Fomentar el acceso a la información, participación ciudadana, y la integridad en la administración pública y en el sector privado`,re:`Aumenta la eficiencia y transparencia del gasto público`,align:`Weak`,feas:`Low`,rationale:`El acceso a la información, la participación ciudadana y la integridad acompañan la gestión del gasto, pero su aporte al indicador de eficiencia del gasto público es indirecto.`},
+{op:`DR-L1151`,idx:1,oe:`Objetivo de desarrollo específico 1: Reducción de los costos de operación vehicular en las vías intervenidas`,re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`,align:`Strong`,feas:`High`,rationale:`Reduce el costo de operación vehicular en carreteras y caminos vecinales rehabilitados; el indicador correspondiente refleja la mejora de la red de transporte terrestre (RE6).`},
+{op:`DR-L1151`,idx:2,oe:`Objetivo de desarrollo específico 2: Reducción de los tiempos de viaje de los usuarios en las vías intervenidas`,re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`,align:`Strong`,feas:`High`,rationale:`Reduce el tiempo de viaje en las vías intervenidas, contribuyendo a la red de transporte terrestre (RE6).`},
+{op:`DR-L1151`,idx:3,oe:`Objetivo de desarrollo específico 3: Incrementar la resiliencia de la infraestructura intervenida a los efectos del CC`,re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`,align:`Strong`,feas:`High`,rationale:`Incrementa la resiliencia de la infraestructura vial intervenida al cambio climático, parte de la resiliencia de la red de transporte terrestre (RE6).`},
+{op:`DR-L1152`,idx:1,oe:`Objetivo específico de desarrollo 1: Mejora de la capacidad de respuesta de la red de protección social`,re:`Mejora en los programas de protección social`,align:`Strong`,feas:`High`,rationale:`Mejora la capacidad de respuesta de la red de protección social; los indicadores de hogares registrados en SIUBEN+ y beneficiarios de Supérate reflejan la mejora de los programas de protección social (RE4).`},
+{op:`DR-L1152`,idx:2,oe:`Objetivo específico de desarrollo 2: Apoyo a la conformación del nuevo componente de cuidados de Supérate`,re:`Mejora en los programas de protección social`,align:`Strong`,feas:`High`,rationale:`Apoya la conformación del componente de cuidados de Supérate; la cobertura de servicios de cuidado amplía los programas de protección social (RE4).`},
+{op:`DR-L1154`,idx:1,oe:`Restaurar y preservar zonas costeras prioritarias de uso turístico`,re:`Aumentan las zonas costeras conservadas y espacios públicos e históricos rehabilitados`,align:`Strong`,feas:`High`,rationale:`Restaura y preserva zonas costeras prioritarias de uso turístico; los indicadores de playas con intervenciones basadas en la naturaleza y obras de control de erosión estables miden la conservación de zonas costeras (RE12).`},
+{op:`DR-L1154`,idx:2,oe:`Fortalecer el marco legal e institucional y las capacidades para la gestión integrada de las zonas costeras`,re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`,align:`Strong`,feas:`High`,rationale:`Fortalece el marco legal e institucional para la gestión integrada de zonas costeras; el subíndice de marco legal e institucional para la GIZC y preparación climática fortalece las capacidades institucionales para la resiliencia y planificación territorial (RE17).`},
+{op:`DR-L1155`,idx:1,oe:`Fortalecer habilidades para la empleabilidad de los buscadores de empleo.`,re:`Mejoran los servicios para la formación de habilidades e inserción laboral`,align:`Strong`,feas:`High`,rationale:`Fortalece habilidades para la empleabilidad; los indicadores de buscadores de empleo con certificación de cursos de capacitación miden la formación de habilidades (RE5).`},
+{op:`DR-L1155`,idx:2,oe:`Mejorar la cobertura con calidad de la oferta de servicios de Intermediación Laboral (IL).`,re:`Mejoran los servicios para la formación de habilidades e inserción laboral`,align:`Strong`,feas:`High`,rationale:`Mejora la cobertura con calidad de los servicios de intermediación laboral, correspondiente directamente a los servicios de inserción laboral (RE5).`},
+{op:`DR-L1156`,idx:1,oe:`Objetivo específico de desarrollo 1: Asegurar la disposición final adecuada de RSU localizados en las áreas objeto de la intervención`,re:`Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo`,align:`Strong`,feas:`High`,rationale:`Asegura la disposición final adecuada de RSU; los indicadores de áreas de botaderos a cielo abierto clausuradas y residuos dispuestos en rellenos miden directamente la disminución de vertederos de cielo abierto en el Gran Santo Domingo (RE2).`},
+{op:`DR-L1156`,idx:2,oe:`Objetivo específico de desarrollo 2: Incrementar la recuperación y valorización de RSU promoviendo la inclusión social de los recicladores informales, la igualdad de género e inclusión de la diversidad.`,re:`Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo`,align:`Strong`,feas:`High`,rationale:`Incrementa la recuperación y valorización de RSU con inclusión de recicladores; las toneladas recuperadas en plantas de valorización reducen los residuos en vertederos (RE2).`},
+{op:`DR-L1156`,idx:3,oe:`Objetivo específico de desarrollo 3: Reducir la generación de emisiones de GEI en la gestión de los RSU`,re:`Disminuyen las áreas de vertederos de cielo abierto en el Gran Santo Domingo`,align:`Weak`,feas:`Low`,rationale:`La reducción de emisiones de GEI (CO2 evitado) es un co-beneficio climático; el indicador del RE2 mide áreas de vertederos, por lo que el aporte de la reducción de GEI es indirecto.`},
+{op:`DR-L1157`,idx:1,oe:`Objetivo específico: Incremento en la provisión de crédito para la inversión y adopción de tecnologías climáticas y tecnologías productivas complementarias de micro, pequeños y medianos productores agropecuarios.`,re:`Incrementa el crédito a segmentos desatendidos`,align:`Strong`,feas:`High`,rationale:`Incrementa la provisión de crédito a MIPYMEs y productores (segmentos desatendidos) para inversión en tecnologías climáticas y productivas; los indicadores de cartera de inversiones productivas a MIPYME y de productores con crédito reflejan el aumento del crédito a segmentos desatendidos (RE13).`},
+{op:`DR-L1157`,idx:1,oe:`Objetivo específico: Incremento en la provisión de crédito para la inversión y adopción de tecnologías climáticas y tecnologías productivas complementarias de micro, pequeños y medianos productores agropecuarios.`,re:`Aumenta la movilización de financiamiento a la inversión privada y el crédito al comercio internacional`,align:`Strong`,feas:`High`,rationale:`La cartera de financiamiento de inversión en tecnologías climáticas moviliza financiamiento hacia la inversión privada (RE14).`},
+{op:`DR-L1158`,idx:1,oe:`Objetivo específico de desarrollo 1: Incrementar la cobertura del saneamiento gestionando de manera segura en las localidades intervenidas por el programa`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Strong`,feas:`High`,rationale:`Incrementa la cobertura de saneamiento gestionado de manera segura; el indicador de hogares con acceso a saneamiento seguro mide directamente la cobertura en ciudades costeras y turísticas (RE1).`},
+{op:`DR-L1158`,idx:2,oe:`Objetivo específico de desarrollo 2: Mejorar la gestión de los servicios de agua potable en las localidades intervenidas por el programa y contribuir al fortalecimiento de los operadores de Agua y Saneamiento y del INAPA`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Strong`,feas:`High`,rationale:`Mejora la gestión de los servicios de agua potable (micromedición, clientes facturados), sosteniendo la cobertura y calidad del servicio (RE1).`},
+{op:`DR-L1161`,idx:1,oe:`Mejorar la gobernanza y gestión del recurso hídrico`,re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`,align:`Strong`,feas:`High`,rationale:`Mejora la gobernanza y gestión del recurso hídrico (juntas de regantes con tarifa adoptada, derechos de agua formalizados, Plan de Acción de cuenca aprobado), fortaleciendo las capacidades institucionales para la planificación territorial (RE17).`},
+{op:`DR-L1161`,idx:2,oe:`Incrementar la resiliencia a los riesgos por inundaciones en la cuenca baja del río Yuna`,re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`,align:`Strong`,feas:`High`,rationale:`Incrementa la resiliencia a inundaciones en la cuenca baja del Yuna; los indicadores de población expuesta con acceso al SAT y reducción de pérdidas económicas por inundaciones reflejan mayor resiliencia territorial (RE17).`},
+{op:`DR-L1161`,idx:3,oe:`Fomentar la adopción de soluciones basadas en la naturaleza (SBN)`,re:`Incrementan los recursos y capacidades institucionales para la resiliencia y planificación territorial`,align:`Weak`,feas:`Low`,rationale:`Las soluciones basadas en la naturaleza apoyan la resiliencia de la cuenca, pero su aporte al indicador institucional/territorial del RE17 es indirecto.`},
+{op:`DR-L1161`,idx:4,oe:`Fomentar la adopción de tecnologías y practicas climáticamente inteligentes por parte de productores.`,re:`Incrementan los productores agropecuarios que usan tecnología`,align:`Strong`,feas:`High`,rationale:`Fomenta la adopción de tecnologías y prácticas climáticamente inteligentes por productores, correspondiente a productores agropecuarios que usan tecnología (RE11).`},
+{op:`DR-L1165`,idx:1,oe:`Objetivo específico de desarrollo 1: Incrementar la cobertura de saneamiento gestionados de manera segura en las ciudades intervenidas por el programa`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Strong`,feas:`High`,rationale:`Incrementa la cobertura de saneamiento gestionado de manera segura en ciudades turísticas; el indicador de hogares con acceso a saneamiento seguro mide la cobertura del RE1.`},
+{op:`DR-L1165`,idx:2,oe:`Objetivo específico de desarrollo 2: Mejorar la eficiencia y la gestión del INAPA y COAAROM`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Weak`,feas:`Low`,rationale:`La mejora de la eficiencia y gestión del INAPA y COAAROM (clientes facturados, micromedición) sostiene la sostenibilidad del servicio, pero su aporte directo al indicador de cobertura del RE1 es indirecto.`},
+{op:`DR-L1166`,idx:1,oe:`Mejorar la resiliencia climática de la infraestructura de puentes del país`,re:`Incrementa la resiliencia de la red de transporte terrestre y la capacidad logística portuaria`,align:`Strong`,feas:`High`,rationale:`Mejora la resiliencia climática de los puentes; el indicador de interrupciones anuales al tránsito en puentes intervenidos mide la resiliencia de la red de transporte terrestre (RE6).`},
+{op:`DR-L1167`,idx:1,oe:`Objetivo específico de desarrollo 1: Contribuir a la reducción de la prevalencia de FR de ECNT mediante la ampliación de la cobertura de las intervenciones para la promoción de hábitos saludables y prevención de comportamientos de riesgo.`,re:`Aumenta la prevención y mejora la gestión de las enfermedades crónicas no transmisibles (ECNT)`,align:`Strong`,feas:`High`,rationale:`Contribuye a reducir la prevalencia de factores de riesgo de ECNT ampliando la cobertura de intervenciones; los indicadores de consejería nutricional y estrategias de promoción y prevención miden la prevención de ECNT (RE3).`},
+{op:`DR-L1167`,idx:2,oe:`Objetivo específico de desarrollo 2: Mejorar la Red de Atención para el diagnóstico oportuno, tratamiento y gestión de las ECNT.`,re:`Aumenta la prevención y mejora la gestión de las enfermedades crónicas no transmisibles (ECNT)`,align:`Strong`,feas:`High`,rationale:`Mejora la Red de Atención para diagnóstico, tratamiento y gestión de ECNT; los indicadores de personas con diabetes/hipertensión diagnosticadas e incorporadas y pacientes con HTA controlada miden la gestión de las ECNT (RE3).`},
+{op:`DR-L1168`,idx:1,oe:`Mejorar la seguridad de la red vial principal del país`,re:`Mejora la seguridad vial`,align:`Strong`,feas:`High`,rationale:`Mejora la seguridad de la red vial principal; el indicador de kilómetros con clasificación iRAP ≥3 estrellas mide directamente la seguridad vial (RE7).`},
+{op:`DR-L1168`,idx:2,oe:`Mejorar la seguridad vial en entornos escolares`,re:`Mejora la seguridad vial`,align:`Strong`,feas:`High`,rationale:`Mejora la seguridad vial en entornos escolares, parte del resultado de seguridad vial (RE7).`},
+{op:`DR-L1168`,idx:3,oe:`Fortalecer la gestión, fiscalización, educación y atención a víctimas en factores relevantes para la seguridad vial`,re:`Mejora la seguridad vial`,align:`Strong`,feas:`High`,rationale:`Fortalece la gestión, fiscalización, educación y atención a víctimas, componentes integrales de la seguridad vial (RE7).`},
+{op:`DR-L1172`,idx:1,oe:`Incrementar el acceso a agua potable segura de la población residente.`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Strong`,feas:`High`,rationale:`Incrementa el acceso a agua potable segura; el indicador de población con nuevo acceso a servicios de agua gestionados de forma segura mide la cobertura de agua potable (RE1).`},
+{op:`DR-L1172`,idx:2,oe:`Incrementar el acceso a saneamiento seguro de la población residente`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Strong`,feas:`High`,rationale:`Incrementa el acceso a saneamiento seguro; el indicador de población con nuevo acceso a saneamiento gestionado de forma segura mide la cobertura de saneamiento (RE1).`},
+{op:`DR-L1172`,idx:3,oe:`Mejorar la gestión integrada y sostenible del recurso hídrico.`,re:`Aumenta la cobertura de los servicios de agua potable y de saneamiento en ciudades costeras y turísticas`,align:`Weak`,feas:`Low`,rationale:`La gestión integrada y sostenible del acuífero (gobernanza multisectorial, agua tratada para reuso) sostiene el servicio, pero su aporte al indicador de cobertura del RE1 es indirecto.`}
+];
+
+function renderAlignTable(){
+  const wrap = document.getElementById('align-table-wrap');
+  let html = '<table class="align-table"><thead><tr>' +
+    '<th>Operación</th>' +
+    '<th>RE op. #</th>' +
+    '<th>Resultado Esperado de la operación</th>' +
+    '<th>Resultado Esperado de la EBP</th>' +
+    '<th>Alineación</th>' +
+    '<th>Justificación del razonamiento</th>' +
+    '</tr></thead><tbody>';
+  // Consecutive RE numbering per operation (only for rows with a connection)
+  const reNum = {};
+  const counters = {};
+  OE_TABLE.forEach(r=>{
+    if(r.re && r.re !== '(sin conexión lógica)'){
+      if(!(r.op in counters)) counters[r.op] = 0;
+    }
+  });
+  // Build per (op,idx) consecutive number among connected ones
+  const seen = {};
+  OE_TABLE.forEach(r=>{
+    const connected = r.re && r.re !== '(sin conexión lógica)';
+    const key = r.op + '|' + r.idx;
+    if(connected && !(key in seen)){
+      if(!(r.op in counters)) counters[r.op]=0;
+      counters[r.op]++;
+      seen[key] = counters[r.op];
+    }
+  });
+  OE_TABLE.forEach(r=>{
+    const connected = r.re && r.re !== '(sin conexión lógica)';
+    const key = r.op + '|' + r.idx;
+    let badge, reNumLabel;
+    if(r.align === 'Strong'){ badge = '<span class="badge strong">Fuerte</span>'; }
+    else if(r.align === 'Weak'){ badge = '<span class="badge weak">Débil</span>'; }
+    else { badge = '<span class="badge none">Sin conexión</span>'; }
+    reNumLabel = connected ? ('RE' + seen[key]) : '—';
+    const reText = connected ? r.re : '<span style="color:#aaa;font-style:italic">(sin conexión lógica)</span>';
+    html += '<tr>' +
+      '<td class="col-op">' + r.op + '</td>' +
+      '<td class="col-num">' + reNumLabel + '</td>' +
+      '<td>' + r.oe + '</td>' +
+      '<td>' + reText + '</td>' +
+      '<td>' + badge + '</td>' +
+      '<td>' + r.rationale + '</td>' +
+      '</tr>';
+  });
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+}
+renderAlignTable();
+
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t=>{
+    t.classList.toggle('active', t.dataset.tab===name);
+  });
+  document.querySelectorAll('.tab-content').forEach(c=>{
+    c.classList.toggle('active', c.id === 'tab-'+name);
+  });
+}
+
+</script>
+</body>
+</html>
